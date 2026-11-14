@@ -1,0 +1,4 @@
+﻿dataset,split_method,feature_type,model,data_split,n_samples,MAE,MSE,RMSE,R2,random_state,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+esol,random,fusion,RandomForest,Train,902,0.28892942553393036,0.14460007014131573,0.38026315906397734,0.9669440145254024,0,200,15,10,1,0.2,True
+esol,random,fusion,RandomForest,Validation,112,0.4881371751734457,0.398911697248231,0.6315945671459112,0.9218554987265308,0,200,15,10,1,0.2,True
+esol,random,fusion,RandomForest,Test,114,0.49050124102396825,0.5202124335203802,0.7212575361965934,0.8619060658651555,0,200,15,10,1,0.2,True
