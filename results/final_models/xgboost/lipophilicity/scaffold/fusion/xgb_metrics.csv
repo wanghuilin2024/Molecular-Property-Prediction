@@ -1,0 +1,4 @@
+﻿model,dataset,split_method,feature_type,feature_dimension,data_split,sample_count,MAE,MSE,RMSE,R2,training_seconds,random_state,objective,tree_method,n_jobs,subsample,reg_lambda,reg_alpha,n_estimators,min_child_weight,max_depth,learning_rate,colsample_bytree
+XGBoost,lipophilicity,scaffold,fusion,2059,Train,3360,0.35463512847157347,0.21688870374511168,0.4657131131341608,0.8495575318602107,0.6482098999549635,0,reg:squarederror,hist,-1,0.6,5.0,0.01,200,5,5,0.1,0.9
+XGBoost,lipophilicity,scaffold,fusion,2059,Validation,420,0.5799335709881215,0.5715381471848325,0.7560014200944549,0.5940501320386321,0.6482098999549635,0,reg:squarederror,hist,-1,0.6,5.0,0.01,200,5,5,0.1,0.9
+XGBoost,lipophilicity,scaffold,fusion,2059,Test,420,0.6367750690817123,0.6818539481833934,0.8257444811704123,0.5526219132188304,0.6482098999549635,0,reg:squarederror,hist,-1,0.6,5.0,0.01,200,5,5,0.1,0.9
