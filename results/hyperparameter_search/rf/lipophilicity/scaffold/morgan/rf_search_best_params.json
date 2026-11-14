@@ -1,0 +1,21 @@
+{
+    "model": "RandomForestRegressor",
+    "dataset": "lipophilicity",
+    "split": "scaffold",
+    "feature_type": "morgan",
+    "train_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\lipophilicity\\scaffold\\train.csv",
+    "val_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\lipophilicity\\scaffold\\val.csv",
+    "best_trial": 169,
+    "selection_metric": "val_MAE",
+    "best_val_MAE": 0.7316798942554802,
+    "best_params": {
+        "n_estimators": 500,
+        "min_samples_split": 5,
+        "min_samples_leaf": 2,
+        "max_features": 0.3,
+        "max_depth": null,
+        "bootstrap": false
+    },
+    "random_state": 0,
+    "n_jobs": -1
+}
