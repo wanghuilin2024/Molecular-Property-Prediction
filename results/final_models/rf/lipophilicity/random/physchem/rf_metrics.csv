@@ -1,0 +1,4 @@
+﻿dataset,split_method,feature_type,model,data_split,n_samples,MAE,MSE,RMSE,R2,random_state,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+lipophilicity,random,physchem,RandomForest,Train,3360,0.44141425576910637,0.34412078404342106,0.5866180904501846,0.7629108660160633,0,200,30,2,4,0.7,True
+lipophilicity,random,physchem,RandomForest,Validation,420,0.6789562161867017,0.7930070499691857,0.8905094328356021,0.4362694913965002,0,200,30,2,4,0.7,True
+lipophilicity,random,physchem,RandomForest,Test,420,0.6988927457801843,0.8174569328396101,0.9041332494934639,0.42413938619581215,0,200,30,2,4,0.7,True
