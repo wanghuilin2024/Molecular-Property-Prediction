@@ -1,0 +1,4 @@
+﻿dataset,split_method,feature_type,model,data_split,n_samples,MAE,MSE,RMSE,R2,random_state,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,bootstrap
+lipophilicity,scaffold,fusion,RandomForest,Train,3360,0.4257744938754996,0.31321362285878873,0.5596549140843746,0.7827428092647111,0,100,15,10,4,1.0,True
+lipophilicity,scaffold,fusion,RandomForest,Validation,420,0.6292045946716563,0.657578610255874,0.8109122087229135,0.5329376502295593,0,100,15,10,4,1.0,True
+lipophilicity,scaffold,fusion,RandomForest,Test,420,0.6877555517532395,0.7626701763009973,0.8733098970588833,0.499596760820065,0,100,15,10,4,1.0,True
