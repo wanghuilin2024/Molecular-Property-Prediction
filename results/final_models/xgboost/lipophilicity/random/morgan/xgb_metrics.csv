@@ -1,0 +1,4 @@
+﻿model,dataset,split_method,feature_type,feature_dimension,data_split,sample_count,MAE,MSE,RMSE,R2,training_seconds,random_state,objective,tree_method,n_jobs,subsample,reg_lambda,reg_alpha,n_estimators,min_child_weight,max_depth,learning_rate,colsample_bytree
+XGBoost,lipophilicity,random,morgan,2048,Train,3360,0.349981961956475,0.20218137232248687,0.4496458298733425,0.8607029604303882,2.2188490999978967,0,reg:squarederror,hist,-1,0.801,1,0.10961,998,3,3,0.098,0.45
+XGBoost,lipophilicity,random,morgan,2048,Validation,420,0.5827919398755544,0.6331724913938309,0.7957213654250028,0.5498922101372753,2.2188490999978967,0,reg:squarederror,hist,-1,0.801,1,0.10961,998,3,3,0.098,0.45
+XGBoost,lipophilicity,random,morgan,2048,Test,420,0.5823879484236241,0.5939537436333481,0.770683945358503,0.5815870492505759,2.2188490999978967,0,reg:squarederror,hist,-1,0.801,1,0.10961,998,3,3,0.098,0.45
