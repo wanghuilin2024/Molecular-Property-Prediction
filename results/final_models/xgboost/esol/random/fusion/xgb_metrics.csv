@@ -1,0 +1,4 @@
+﻿model,dataset,split_method,feature_type,feature_dimension,data_split,sample_count,MAE,MSE,RMSE,R2,training_seconds,random_state,objective,tree_method,n_jobs,subsample,reg_lambda,reg_alpha,n_estimators,min_child_weight,max_depth,learning_rate,colsample_bytree
+XGBoost,esol,random,fusion,2059,Train,902,0.2520781552437941,0.10471221295017714,0.3235926651674558,0.9760624916231971,0.36783429997740313,0,reg:squarederror,hist,-1,1.0,1.0,1.0,200,3,3,0.2,0.9
+XGBoost,esol,random,fusion,2059,Validation,112,0.4236436084131045,0.3377959249426115,0.5812021377650047,0.9338277261134696,0.36783429997740313,0,reg:squarederror,hist,-1,1.0,1.0,1.0,200,3,3,0.2,0.9
+XGBoost,esol,random,fusion,2059,Test,114,0.4569598755926025,0.38774284145148824,0.6226900042970726,0.8970710214550042,0.36783429997740313,0,reg:squarederror,hist,-1,1.0,1.0,1.0,200,3,3,0.2,0.9
