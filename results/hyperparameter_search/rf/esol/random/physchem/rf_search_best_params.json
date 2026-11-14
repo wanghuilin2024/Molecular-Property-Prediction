@@ -1,0 +1,21 @@
+{
+    "model": "RandomForestRegressor",
+    "dataset": "esol",
+    "split": "random",
+    "feature_type": "physchem",
+    "train_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\esol\\random\\train.csv",
+    "val_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\esol\\random\\val.csv",
+    "best_trial": 299,
+    "selection_metric": "val_MAE",
+    "best_val_MAE": 0.4340916845334723,
+    "best_params": {
+        "n_estimators": 100,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "max_depth": 20,
+        "bootstrap": false
+    },
+    "random_state": 0,
+    "n_jobs": -1
+}
