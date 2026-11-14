@@ -1,0 +1,25 @@
+{
+    "model": "XGBRegressor",
+    "dataset": "esol",
+    "split": "random",
+    "feature_type": "fusion",
+    "train_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\esol\\random\\train.csv",
+    "val_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\esol\\random\\val.csv",
+    "best_trial": 12,
+    "selection_metric": "val_MAE",
+    "best_val_MAE": 0.40432450435443645,
+    "best_params": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 3,
+        "learning_rate": 0.2,
+        "colsample_bytree": 0.7
+    },
+    "random_state": 0,
+    "n_jobs": -1,
+    "objective": "reg:squarederror",
+    "tree_method": "hist"
+}
