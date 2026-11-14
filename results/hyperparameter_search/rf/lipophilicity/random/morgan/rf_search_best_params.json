@@ -1,0 +1,21 @@
+{
+    "model": "RandomForestRegressor",
+    "dataset": "lipophilicity",
+    "split": "random",
+    "feature_type": "morgan",
+    "train_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\lipophilicity\\random\\train.csv",
+    "val_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\lipophilicity\\random\\val.csv",
+    "best_trial": 216,
+    "selection_metric": "val_MAE",
+    "best_val_MAE": 0.619831023809524,
+    "best_params": {
+        "n_estimators": 500,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": null,
+        "bootstrap": false
+    },
+    "random_state": 0,
+    "n_jobs": -1
+}
