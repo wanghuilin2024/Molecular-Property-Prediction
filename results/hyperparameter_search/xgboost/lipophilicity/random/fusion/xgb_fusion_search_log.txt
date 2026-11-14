@@ -1,0 +1,1814 @@
+XGBoost Hyperparameter Search
+Dataset: lipophilicity
+Split: random
+Features: fusion
+Train: E:\pycharmprojects\assignment3\dataset\final\lipophilicity\random\train.csv
+Validation: E:\pycharmprojects\assignment3\dataset\final\lipophilicity\random\val.csv
+Trials: 300
+Start: 2026-11-13T11:44:26.829017
+
+Trial 1/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.4684867584030753, 'MSE': 0.3521769140759527, 'R2': 0.7573604285497988}
+Validation: {'MAE': 0.6069719981969822, 'MSE': 0.6310984086376323, 'R2': 0.5513666279587599}
+Fit time: 1.45s
+------------------------------------------------------------
+Trial 2/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.6916005990383371, 'MSE': 0.7397714115494489, 'R2': 0.49031918023236165}
+Validation: {'MAE': 0.736530514813605, 'MSE': 0.8532952029673471, 'R2': 0.39341202732510283}
+Fit time: 0.64s
+------------------------------------------------------------
+Trial 3/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.04167031208567676, 'MSE': 0.00389543328922209, 'R2': 0.9973161606393489}
+Validation: {'MAE': 0.4798781259243953, 'MSE': 0.5002830735946875, 'R2': 0.6443602468172078}
+Fit time: 1.60s
+------------------------------------------------------------
+Trial 4/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.6019619726036409, 'MSE': 0.5672904890389162, 'R2': 0.6091534804053287}
+Validation: {'MAE': 0.6867990700506738, 'MSE': 0.7648196807127866, 'R2': 0.4563072451689564}
+Fit time: 0.74s
+------------------------------------------------------------
+Trial 5/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.056040722039877436, 'MSE': 0.005813010611376615, 'R2': 0.9959950060688086}
+Validation: {'MAE': 0.498483067492644, 'MSE': 0.5344666557914469, 'R2': 0.6200599229065722}
+Fit time: 1.06s
+------------------------------------------------------------
+Trial 6/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.06061086040849443, 'MSE': 0.007406026052389537, 'R2': 0.9948974651214268}
+Validation: {'MAE': 0.4906147178303273, 'MSE': 0.5177831989964219, 'R2': 0.6319198093788168}
+Fit time: 1.55s
+------------------------------------------------------------
+Trial 7/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.0468972958295157, 'MSE': 0.0046613555759428115, 'R2': 0.9967884626330735}
+Validation: {'MAE': 0.48876655435845967, 'MSE': 0.5017704148064297, 'R2': 0.6433029300912153}
+Fit time: 1.59s
+------------------------------------------------------------
+Trial 8/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3241113024754834, 'MSE': 0.1823340128417666, 'R2': 0.8743772093840871}
+Validation: {'MAE': 0.5427468566589412, 'MSE': 0.5466952218200349, 'R2': 0.6113669160196156}
+Fit time: 0.75s
+------------------------------------------------------------
+Trial 9/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.34014651610284286, 'MSE': 0.20439094941764513, 'R2': 0.8591806265747971}
+Validation: {'MAE': 0.5520677255052364, 'MSE': 0.5672875971045033, 'R2': 0.5967282691211818}
+Fit time: 0.52s
+------------------------------------------------------------
+Trial 10/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.18689618648782333, 'MSE': 0.0624308468705896, 'R2': 0.956986976361869}
+Validation: {'MAE': 0.5132414893199291, 'MSE': 0.5391805424747482, 'R2': 0.6167089290691532}
+Fit time: 0.70s
+------------------------------------------------------------
+Trial 11/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.49691034187467903, 'MSE': 0.39218738032317985, 'R2': 0.7297943900170851}
+Validation: {'MAE': 0.6112551271424052, 'MSE': 0.6467977278461046, 'R2': 0.5402063423062369}
+Fit time: 0.61s
+------------------------------------------------------------
+Trial 12/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.2972615477623795, 'MSE': 0.1533612697493039, 'R2': 0.8943385801801746}
+Validation: {'MAE': 0.5389186781233265, 'MSE': 0.5828121110512808, 'R2': 0.5856922485165994}
+Fit time: 0.73s
+------------------------------------------------------------
+Trial 13/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.48162152851243784, 'MSE': 0.3637488662905431, 'R2': 0.7493876926492711}
+Validation: {'MAE': 0.603759058831703, 'MSE': 0.6269625620925511, 'R2': 0.5543067063306424}
+Fit time: 0.45s
+------------------------------------------------------------
+Trial 14/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.36922808828661385, 'MSE': 0.22516055955127684, 'R2': 0.8448709739525208}
+Validation: {'MAE': 0.5698038242465506, 'MSE': 0.5960292988294127, 'R2': 0.5762964531213834}
+Fit time: 0.35s
+------------------------------------------------------------
+Trial 15/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.1698678782488735, 'MSE': 0.04986336015890963, 'R2': 0.9656456063516544}
+Validation: {'MAE': 0.5019307468684302, 'MSE': 0.5171515395856336, 'R2': 0.6323688415544092}
+Fit time: 0.70s
+------------------------------------------------------------
+Trial 16/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.4633271459671558, 'MSE': 0.35939806876841685, 'R2': 0.7523852646196122}
+Validation: {'MAE': 0.5866495930318322, 'MSE': 0.6083333842489186, 'R2': 0.5675497612329463}
+Fit time: 0.51s
+------------------------------------------------------------
+Trial 17/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.3864873806680109, 'MSE': 0.2576942387558746, 'R2': 0.8224562225466423}
+Validation: {'MAE': 0.5766490125686285, 'MSE': 0.5983408356659365, 'R2': 0.5746532346448769}
+Fit time: 0.29s
+------------------------------------------------------------
+Trial 18/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.3369604422513235, 'MSE': 0.19506967090257998, 'R2': 0.8656027142638715}
+Validation: {'MAE': 0.5474101205869977, 'MSE': 0.5706391251434533, 'R2': 0.5943457447715312}
+Fit time: 0.48s
+------------------------------------------------------------
+Trial 19/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.3282702428529252, 'MSE': 0.1884624657221343, 'R2': 0.8701548849752122}
+Validation: {'MAE': 0.5248857764956497, 'MSE': 0.5308855448292924, 'R2': 0.6226056524863275}
+Fit time: 1.66s
+------------------------------------------------------------
+Trial 20/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.09768454327203688, 'MSE': 0.018579405513670277, 'R2': 0.9871993341657136}
+Validation: {'MAE': 0.48836361663575684, 'MSE': 0.495725086074362, 'R2': 0.6476004155182822}
+Fit time: 1.47s
+------------------------------------------------------------
+Trial 21/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.6649294513811668, 'MSE': 0.7025946226596824, 'R2': 0.5159328981212126}
+Validation: {'MAE': 0.7310065335375923, 'MSE': 0.8545956317837659, 'R2': 0.39248758233043235}
+Fit time: 0.65s
+------------------------------------------------------------
+Trial 22/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.4885198648087874, 'MSE': 0.37179895167680893, 'R2': 0.7438414197671144}
+Validation: {'MAE': 0.616733242570999, 'MSE': 0.642698417506304, 'R2': 0.5431204479284621}
+Fit time: 0.56s
+------------------------------------------------------------
+Trial 23/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.13340258316989967, 'MSE': 0.03760174508872197, 'R2': 0.9740934997455866}
+Validation: {'MAE': 0.4901946368607737, 'MSE': 0.4933467562817076, 'R2': 0.6492911155740912}
+Fit time: 1.38s
+------------------------------------------------------------
+Trial 24/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.21615960161708891, 'MSE': 0.08289124859623224, 'R2': 0.9428903592697611}
+Validation: {'MAE': 0.5066769270989158, 'MSE': 0.5076102273203109, 'R2': 0.6391515414260991}
+Fit time: 1.78s
+------------------------------------------------------------
+Trial 25/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.06368749141116088, 'MSE': 0.007786456480558405, 'R2': 0.9946353597068806}
+Validation: {'MAE': 0.4996668217493044, 'MSE': 0.5412441337754925, 'R2': 0.615241969382523}
+Fit time: 1.18s
+------------------------------------------------------------
+Trial 26/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5442484781226321, 'MSE': 0.482067360419897, 'R2': 0.6678697181235812}
+Validation: {'MAE': 0.6352349058999901, 'MSE': 0.6781224789169185, 'R2': 0.5179382958194949}
+Fit time: 1.29s
+------------------------------------------------------------
+Trial 27/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.19701724384933134, 'MSE': 0.07242642348733042, 'R2': 0.9501003170444994}
+Validation: {'MAE': 0.4962261971111765, 'MSE': 0.5033318984636161, 'R2': 0.6421929072026723}
+Fit time: 2.05s
+------------------------------------------------------------
+Trial 28/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.55206448665029, 'MSE': 0.4735403134258926, 'R2': 0.6737446035736671}
+Validation: {'MAE': 0.6494662331129825, 'MSE': 0.6973947172670586, 'R2': 0.5042381039643601}
+Fit time: 0.93s
+------------------------------------------------------------
+Trial 29/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.4708605430203468, 'MSE': 0.3599370066172369, 'R2': 0.7520139522381091}
+Validation: {'MAE': 0.602630900070426, 'MSE': 0.6324921485797755, 'R2': 0.5503758502267386}
+Fit time: 1.02s
+------------------------------------------------------------
+Trial 30/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.3423817908821926, 'MSE': 0.19256558982421582, 'R2': 0.8673279527319439}
+Validation: {'MAE': 0.5489613984171523, 'MSE': 0.5601339592904053, 'R2': 0.6018136260337885}
+Fit time: 2.55s
+------------------------------------------------------------
+Trial 31/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.5146517212237286, 'MSE': 0.419356949117627, 'R2': 0.7110753534610725}
+Validation: {'MAE': 0.6246295130572148, 'MSE': 0.6567809252657152, 'R2': 0.5331095164216941}
+Fit time: 0.32s
+------------------------------------------------------------
+Trial 32/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.6944866019728638, 'MSE': 0.7406583551984434, 'R2': 0.48970810205463056}
+Validation: {'MAE': 0.737966007170223, 'MSE': 0.8708757216007298, 'R2': 0.38091444018373344}
+Fit time: 0.51s
+------------------------------------------------------------
+Trial 33/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.41705252017709427, 'MSE': 0.300560399726903, 'R2': 0.7929226940499886}
+Validation: {'MAE': 0.581440317945821, 'MSE': 0.6077489126954326, 'R2': 0.5679652486439646}
+Fit time: 0.91s
+------------------------------------------------------------
+Trial 34/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.40221664286723324, 'MSE': 0.27982531106864206, 'R2': 0.8072085623875632}
+Validation: {'MAE': 0.5872011636939077, 'MSE': 0.6067319569371816, 'R2': 0.5686881791486157}
+Fit time: 1.94s
+------------------------------------------------------------
+Trial 35/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.1590928192799772, 'MSE': 0.05091954816823398, 'R2': 0.9649179237702288}
+Validation: {'MAE': 0.48463350375138575, 'MSE': 0.4837285538674735, 'R2': 0.6561284748876539}
+Fit time: 1.20s
+------------------------------------------------------------
+Trial 36/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.22886021275034482, 'MSE': 0.09369656513620411, 'R2': 0.9354458128788607}
+Validation: {'MAE': 0.5256801462181444, 'MSE': 0.5345443338452084, 'R2': 0.6200047033612278}
+Fit time: 0.53s
+------------------------------------------------------------
+Trial 37/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.4384329603550307, 'MSE': 0.3152477430376748, 'R2': 0.7828035449966834}
+Validation: {'MAE': 0.5789006055444035, 'MSE': 0.6156511529603715, 'R2': 0.5623477274329813}
+Fit time: 0.77s
+------------------------------------------------------------
+Trial 38/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.07825434790284046, 'MSE': 0.011258719761563615, 'R2': 0.9922430720787264}
+Validation: {'MAE': 0.5010741594472812, 'MSE': 0.5157119053451785, 'R2': 0.6333922444896116}
+Fit time: 1.35s
+------------------------------------------------------------
+Trial 39/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.07537946718111856, 'MSE': 0.01124421356560854, 'R2': 0.9922530664225612}
+Validation: {'MAE': 0.49925926595465053, 'MSE': 0.5326721345429205, 'R2': 0.6213356068694966}
+Fit time: 1.41s
+------------------------------------------------------------
+Trial 40/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3421848650789553, 'MSE': 0.20604748541440787, 'R2': 0.8580393218262989}
+Validation: {'MAE': 0.53527851510314, 'MSE': 0.5434628847159059, 'R2': 0.6136647102696912}
+Fit time: 1.39s
+------------------------------------------------------------
+Trial 41/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.12475138933550452, 'MSE': 0.02853150001127286, 'R2': 0.980342632753964}
+Validation: {'MAE': 0.5132628682951133, 'MSE': 0.5638080974837038, 'R2': 0.599201765530823}
+Fit time: 1.16s
+------------------------------------------------------------
+Trial 42/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.1759179080166172, 'MSE': 0.06344925941833301, 'R2': 0.9562853199662692}
+Validation: {'MAE': 0.49649741711219153, 'MSE': 0.5055940364388092, 'R2': 0.640584805242751}
+Fit time: 1.87s
+------------------------------------------------------------
+Trial 43/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.5994959487907998, 'MSE': 0.5735005033919609, 'R2': 0.604874962532356}
+Validation: {'MAE': 0.6679409965439921, 'MSE': 0.7193805975283225, 'R2': 0.48860884636537716}
+Fit time: 1.23s
+------------------------------------------------------------
+Trial 44/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.42373853140538337, 'MSE': 0.30619329344373347, 'R2': 0.7890417953798915}
+Validation: {'MAE': 0.5842791064608664, 'MSE': 0.6104092171286376, 'R2': 0.5660740992888245}
+Fit time: 0.35s
+------------------------------------------------------------
+Trial 45/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3716281544681461, 'MSE': 0.23223027761103274, 'R2': 0.8400001454236441}
+Validation: {'MAE': 0.5585211524926126, 'MSE': 0.5777457438441932, 'R2': 0.5892938126673022}
+Fit time: 0.51s
+------------------------------------------------------------
+Trial 46/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3065547153785398, 'MSE': 0.1684895340468848, 'R2': 0.8839156494904056}
+Validation: {'MAE': 0.542558402352035, 'MSE': 0.5465432361640292, 'R2': 0.6114749591336885}
+Fit time: 0.42s
+------------------------------------------------------------
+Trial 47/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.5291625954295409, 'MSE': 0.44755569241625986, 'R2': 0.6916472458369058}
+Validation: {'MAE': 0.6391469401261283, 'MSE': 0.6811891725288913, 'R2': 0.5157582537257005}
+Fit time: 0.41s
+------------------------------------------------------------
+Trial 48/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.20918615057927534, 'MSE': 0.07635212922760475, 'R2': 0.9473956208523624}
+Validation: {'MAE': 0.5176484863483125, 'MSE': 0.5507473466066072, 'R2': 0.6084863535240513}
+Fit time: 0.54s
+------------------------------------------------------------
+Trial 49/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.36408091325745806, 'MSE': 0.2268441586456094, 'R2': 0.8437110235230196}
+Validation: {'MAE': 0.5526442803250892, 'MSE': 0.5564256920194456, 'R2': 0.6044497481146416}
+Fit time: 2.40s
+------------------------------------------------------------
+Trial 50/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.4351131619671249, 'MSE': 0.3212907611599523, 'R2': 0.7786400826320294}
+Validation: {'MAE': 0.5725686941771281, 'MSE': 0.5881599981696759, 'R2': 0.5818905583231464}
+Fit time: 0.27s
+------------------------------------------------------------
+Trial 51/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.592456884094902, 'MSE': 0.5518155060961203, 'R2': 0.6198152900792854}
+Validation: {'MAE': 0.6820500135464327, 'MSE': 0.7523817570061069, 'R2': 0.465149079623531}
+Fit time: 0.79s
+------------------------------------------------------------
+Trial 52/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3676708227796272, 'MSE': 0.23849481295448546, 'R2': 0.835684064186297}
+Validation: {'MAE': 0.5579483027245317, 'MSE': 0.5668544034057069, 'R2': 0.5970362165778353}
+Fit time: 2.69s
+------------------------------------------------------------
+Trial 53/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.10143808185517889, 'MSE': 0.01770309413103924, 'R2': 0.9878030870235534}
+Validation: {'MAE': 0.4935791202613286, 'MSE': 0.5385757624183031, 'R2': 0.61713885332875}
+Fit time: 0.79s
+------------------------------------------------------------
+Trial 54/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.4680606252712508, 'MSE': 0.358434139530996, 'R2': 0.7530493836113121}
+Validation: {'MAE': 0.5963500983065793, 'MSE': 0.6151165175973474, 'R2': 0.5627277874401739}
+Fit time: 0.62s
+------------------------------------------------------------
+Trial 55/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.20327597922766635, 'MSE': 0.07398714776115137, 'R2': 0.9490250237648548}
+Validation: {'MAE': 0.5050535920379418, 'MSE': 0.5340764395491413, 'R2': 0.6203373186759402}
+Fit time: 0.95s
+------------------------------------------------------------
+Trial 56/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.39011866393748534, 'MSE': 0.24794977562348855, 'R2': 0.8291698720334582}
+Validation: {'MAE': 0.5655676303596369, 'MSE': 0.5863645711286309, 'R2': 0.5831668861931799}
+Fit time: 0.35s
+------------------------------------------------------------
+Trial 57/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.2582511029640806, 'MSE': 0.11695649133425752, 'R2': 0.9194204054796642}
+Validation: {'MAE': 0.5198749391853454, 'MSE': 0.5131266606999635, 'R2': 0.6352300355644429}
+Fit time: 0.97s
+------------------------------------------------------------
+Trial 58/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.38873671980507096, 'MSE': 0.25993747978548876, 'R2': 0.8209106952269052}
+Validation: {'MAE': 0.5593896464859801, 'MSE': 0.5855522116158463, 'R2': 0.5837443739233695}
+Fit time: 0.37s
+------------------------------------------------------------
+Trial 59/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.5619095256524244, 'MSE': 0.5027339194029812, 'R2': 0.6536310647235903}
+Validation: {'MAE': 0.6469152514966471, 'MSE': 0.6930412538539678, 'R2': 0.5073328811723858}
+Fit time: 0.56s
+------------------------------------------------------------
+Trial 60/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.033693965160626074, 'MSE': 0.0028955539711101527, 'R2': 0.9980050481829437}
+Validation: {'MAE': 0.4871147305468719, 'MSE': 0.5012054999362726, 'R2': 0.6437045151049724}
+Fit time: 2.56s
+------------------------------------------------------------
+Trial 61/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.19995679193240357, 'MSE': 0.06079483029454009, 'R2': 0.9581141438309225}
+Validation: {'MAE': 0.5517501440204325, 'MSE': 0.5982431369784992, 'R2': 0.5747226863991345}
+Fit time: 0.42s
+------------------------------------------------------------
+Trial 62/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.18103145022658523, 'MSE': 0.05908004798186906, 'R2': 0.9592955785838749}
+Validation: {'MAE': 0.4874091105142697, 'MSE': 0.4954592599350122, 'R2': 0.6477893852187933}
+Fit time: 2.52s
+------------------------------------------------------------
+Trial 63/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.3724615698000638, 'MSE': 0.23070054868540335, 'R2': 0.8410540838168621}
+Validation: {'MAE': 0.5472109407292944, 'MSE': 0.5635710409566546, 'R2': 0.5993702835743466}
+Fit time: 0.90s
+------------------------------------------------------------
+Trial 64/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.2496100424617221, 'MSE': 0.10896078874941997, 'R2': 0.9249292102056033}
+Validation: {'MAE': 0.5179650564054693, 'MSE': 0.5334189126741863, 'R2': 0.6208047394380295}
+Fit time: 0.60s
+------------------------------------------------------------
+Trial 65/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.5166895186443303, 'MSE': 0.43458804641183185, 'R2': 0.7005815738506772}
+Validation: {'MAE': 0.6182186378817118, 'MSE': 0.6595826530693909, 'R2': 0.5311178324388139}
+Fit time: 0.63s
+------------------------------------------------------------
+Trial 66/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.05083861413883279, 'MSE': 0.005203762656350439, 'R2': 0.9964147600526901}
+Validation: {'MAE': 0.48772633621167577, 'MSE': 0.4937645120738276, 'R2': 0.6489941425709219}
+Fit time: 1.77s
+------------------------------------------------------------
+Trial 67/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.16889687658870492, 'MSE': 0.051333602754562654, 'R2': 0.9646326522962385}
+Validation: {'MAE': 0.5005153923527825, 'MSE': 0.50142988051206, 'R2': 0.6435450081042284}
+Fit time: 1.44s
+------------------------------------------------------------
+Trial 68/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5680565045463319, 'MSE': 0.5159714694657394, 'R2': 0.6445107807245503}
+Validation: {'MAE': 0.6464439909600076, 'MSE': 0.6920923062390207, 'R2': 0.508007466249067}
+Fit time: 0.54s
+------------------------------------------------------------
+Trial 69/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.22852658004442597, 'MSE': 0.095559791011025, 'R2': 0.9341621048624859}
+Validation: {'MAE': 0.514086471205666, 'MSE': 0.5398543041766485, 'R2': 0.6162299673412536}
+Fit time: 0.87s
+------------------------------------------------------------
+Trial 70/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.12124161478952182, 'MSE': 0.024044626052097152, 'R2': 0.9834339574010154}
+Validation: {'MAE': 0.49830469202143807, 'MSE': 0.5316515373813011, 'R2': 0.622061125964215}
+Fit time: 1.06s
+------------------------------------------------------------
+Trial 71/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.21485578965122387, 'MSE': 0.07941228653648531, 'R2': 0.9452872621601262}
+Validation: {'MAE': 0.5004006054812954, 'MSE': 0.5148597559292921, 'R2': 0.633998017948552}
+Fit time: 1.10s
+------------------------------------------------------------
+Trial 72/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.45545709002259954, 'MSE': 0.3382411182040061, 'R2': 0.7669617834457002}
+Validation: {'MAE': 0.5922502672093077, 'MSE': 0.617599362885995, 'R2': 0.5609627897173826}
+Fit time: 0.61s
+------------------------------------------------------------
+Trial 73/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.577848513093666, 'MSE': 0.5273852171671866, 'R2': 0.6366470430965847}
+Validation: {'MAE': 0.6580273498403174, 'MSE': 0.7147627922934017, 'R2': 0.4918915381066611}
+Fit time: 0.29s
+------------------------------------------------------------
+Trial 74/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5281056943113605, 'MSE': 0.454811951509736, 'R2': 0.6866478960033362}
+Validation: {'MAE': 0.645168577033849, 'MSE': 0.6893151437266684, 'R2': 0.5099816873302337}
+Fit time: 1.18s
+------------------------------------------------------------
+Trial 75/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.4527751623219769, 'MSE': 0.3463681812049796, 'R2': 0.7613624752432333}
+Validation: {'MAE': 0.5805295076365361, 'MSE': 0.6051530311016783, 'R2': 0.5698106012813446}
+Fit time: 1.02s
+------------------------------------------------------------
+Trial 76/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.6304624207211905, 'MSE': 0.6178665752697119, 'R2': 0.5743080393835414}
+Validation: {'MAE': 0.6989860067750726, 'MSE': 0.7806943233018339, 'R2': 0.44502232614967396}
+Fit time: 0.74s
+------------------------------------------------------------
+Trial 77/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.4986175750741857, 'MSE': 0.4121790942822897, 'R2': 0.7160206850588229}
+Validation: {'MAE': 0.6097308801207691, 'MSE': 0.6409244814917323, 'R2': 0.5443814983210953}
+Fit time: 1.68s
+------------------------------------------------------------
+Trial 78/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.38677913421963706, 'MSE': 0.25667282259830176, 'R2': 0.8231599483413783}
+Validation: {'MAE': 0.5623599866827939, 'MSE': 0.5756305780086921, 'R2': 0.5907974355068144}
+Fit time: 0.38s
+------------------------------------------------------------
+Trial 79/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.3903419660148765, 'MSE': 0.2559545802781874, 'R2': 0.8236547962481674}
+Validation: {'MAE': 0.5654255333334385, 'MSE': 0.5889921927959951, 'R2': 0.5812989702660538}
+Fit time: 0.34s
+------------------------------------------------------------
+Trial 80/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.46363335566965785, 'MSE': 0.36172696271754745, 'R2': 0.7507807249488258}
+Validation: {'MAE': 0.5907180785987349, 'MSE': 0.6108302731157986, 'R2': 0.5657747802527553}
+Fit time: 0.31s
+------------------------------------------------------------
+Trial 81/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5098230467399283, 'MSE': 0.42069056323997206, 'R2': 0.7101565324191688}
+Validation: {'MAE': 0.610600367690126, 'MSE': 0.6347413831676199, 'R2': 0.5487769209886905}
+Fit time: 0.54s
+------------------------------------------------------------
+Trial 82/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.198949612598079, 'MSE': 0.062287094613440654, 'R2': 0.9570860174536485}
+Validation: {'MAE': 0.5155181025089252, 'MSE': 0.5464509777989386, 'R2': 0.6115405434876706}
+Fit time: 0.74s
+------------------------------------------------------------
+Trial 83/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.44495168489974735, 'MSE': 0.3204703384158093, 'R2': 0.7792053298560536}
+Validation: {'MAE': 0.5967208917027428, 'MSE': 0.6161496263256633, 'R2': 0.5619933741598899}
+Fit time: 0.67s
+------------------------------------------------------------
+Trial 84/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.21308808377644228, 'MSE': 0.08815285109491137, 'R2': 0.9392652693663796}
+Validation: {'MAE': 0.5105267169886224, 'MSE': 0.5221942429921808, 'R2': 0.6287840994563157}
+Fit time: 2.22s
+------------------------------------------------------------
+Trial 85/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.3200139945136949, 'MSE': 0.17370296055599688, 'R2': 0.8803237514317916}
+Validation: {'MAE': 0.5556076088528193, 'MSE': 0.5884518067432805, 'R2': 0.5816831183065421}
+Fit time: 0.39s
+------------------------------------------------------------
+Trial 86/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.11807832665788702, 'MSE': 0.023457441278606543, 'R2': 0.9838385104994933}
+Validation: {'MAE': 0.4897423251228673, 'MSE': 0.5006186251212505, 'R2': 0.6441217109394506}
+Fit time: 1.93s
+------------------------------------------------------------
+Trial 87/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.15515587729511165, 'MSE': 0.047563010491613544, 'R2': 0.9672304798488932}
+Validation: {'MAE': 0.5092139092405282, 'MSE': 0.5304028249167446, 'R2': 0.6229488069914786}
+Fit time: 0.69s
+------------------------------------------------------------
+Trial 88/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.04744392770338163, 'MSE': 0.004429294177346441, 'R2': 0.9969483461349586}
+Validation: {'MAE': 0.48432614834677606, 'MSE': 0.4746582072720537, 'R2': 0.6625763760754739}
+Fit time: 1.69s
+------------------------------------------------------------
+Trial 89/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.14003845475588572, 'MSE': 0.037529726087295136, 'R2': 0.974143118726684}
+Validation: {'MAE': 0.49553191994467666, 'MSE': 0.5242102680339518, 'R2': 0.6273509535313216}
+Fit time: 0.74s
+------------------------------------------------------------
+Trial 90/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.415170195295829, 'MSE': 0.2945544463576395, 'R2': 0.7970606198861885}
+Validation: {'MAE': 0.5683644278589802, 'MSE': 0.5867607331155476, 'R2': 0.5828852637304509}
+Fit time: 1.30s
+------------------------------------------------------------
+Trial 91/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.7353735516546738, 'MSE': 0.8241793352153307, 'R2': 0.4321645948330647}
+Validation: {'MAE': 0.7778969714187441, 'MSE': 0.9549676699454357, 'R2': 0.3211354044088782}
+Fit time: 0.40s
+------------------------------------------------------------
+Trial 92/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.011917446550526489, 'MSE': 0.0010853912312179786, 'R2': 0.9992521972546397}
+Validation: {'MAE': 0.488015687177756, 'MSE': 0.5008020147763285, 'R2': 0.6439913434433058}
+Fit time: 2.73s
+------------------------------------------------------------
+Trial 93/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.2507996288390797, 'MSE': 0.11533047539362985, 'R2': 0.9205406828040319}
+Validation: {'MAE': 0.5140039670123231, 'MSE': 0.529748461135953, 'R2': 0.623413979182535}
+Fit time: 1.25s
+------------------------------------------------------------
+Trial 94/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.23041025692534386, 'MSE': 0.09215148894284701, 'R2': 0.9365103250897129}
+Validation: {'MAE': 0.504624260300859, 'MSE': 0.5091635385496974, 'R2': 0.6380473281288837}
+Fit time: 1.11s
+------------------------------------------------------------
+Trial 95/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.5739427807111116, 'MSE': 0.5362390201739377, 'R2': 0.6305470323309748}
+Validation: {'MAE': 0.6664413106952395, 'MSE': 0.7264309905643529, 'R2': 0.4835968837955482}
+Fit time: 0.95s
+------------------------------------------------------------
+Trial 96/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.26948476369233826, 'MSE': 0.11164069362292953, 'R2': 0.9230828342960925}
+Validation: {'MAE': 0.5228205850216604, 'MSE': 0.5272284408378658, 'R2': 0.6252054037661968}
+Fit time: 0.82s
+------------------------------------------------------------
+Trial 97/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.7474140528582391, 'MSE': 0.8577455155943805, 'R2': 0.40903848038072355}
+Validation: {'MAE': 0.7789846855061395, 'MSE': 0.9612483838824922, 'R2': 0.3166705890427759}
+Fit time: 0.45s
+------------------------------------------------------------
+Trial 98/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.23219817290161845, 'MSE': 0.09064310292220981, 'R2': 0.9375495588469545}
+Validation: {'MAE': 0.501021497308454, 'MSE': 0.5050099987785039, 'R2': 0.640999984209067}
+Fit time: 1.07s
+------------------------------------------------------------
+Trial 99/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.41612592464034065, 'MSE': 0.2966114931934407, 'R2': 0.795643374908614}
+Validation: {'MAE': 0.5719403499414524, 'MSE': 0.5919651023970903, 'R2': 0.5791855970728107}
+Fit time: 0.43s
+------------------------------------------------------------
+Trial 100/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.1713354947763118, 'MSE': 0.054314583074382784, 'R2': 0.9625788442287777}
+Validation: {'MAE': 0.4934193088202959, 'MSE': 0.5053187033798181, 'R2': 0.6407805331942067}
+Fit time: 1.37s
+------------------------------------------------------------
+Trial 101/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.27717007234432445, 'MSE': 0.1361538527821337, 'R2': 0.9061939861190734}
+Validation: {'MAE': 0.5223143524406921, 'MSE': 0.539736952726249, 'R2': 0.6163133897935781}
+Fit time: 0.61s
+------------------------------------------------------------
+Trial 102/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5404429046106082, 'MSE': 0.46951244634073835, 'R2': 0.6765196859380649}
+Validation: {'MAE': 0.6430677390503031, 'MSE': 0.696189792779344, 'R2': 0.5050946571240256}
+Fit time: 0.41s
+------------------------------------------------------------
+Trial 103/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.48150294510975844, 'MSE': 0.3695324209556254, 'R2': 0.7454029930017192}
+Validation: {'MAE': 0.604536922342011, 'MSE': 0.6228392178434885, 'R2': 0.5572378971072713}
+Fit time: 0.28s
+------------------------------------------------------------
+Trial 104/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.5803291302689884, 'MSE': 0.5400402978414984, 'R2': 0.6279280634339356}
+Validation: {'MAE': 0.6640727907036031, 'MSE': 0.7216082763747436, 'R2': 0.4870252406091017}
+Fit time: 0.28s
+------------------------------------------------------------
+Trial 105/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.4430364799402166, 'MSE': 0.3289941603907825, 'R2': 0.7733326663495546}
+Validation: {'MAE': 0.5779288533198691, 'MSE': 0.6078819030553059, 'R2': 0.5678707088498813}
+Fit time: 0.43s
+------------------------------------------------------------
+Trial 106/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.5003767208370957, 'MSE': 0.40227720541227446, 'R2': 0.7228427962646978}
+Validation: {'MAE': 0.60678775632275, 'MSE': 0.6365443040477449, 'R2': 0.5474952659204735}
+Fit time: 0.55s
+------------------------------------------------------------
+Trial 107/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.23080713605837497, 'MSE': 0.09244848747660475, 'R2': 0.9363057018050169}
+Validation: {'MAE': 0.5175631529134255, 'MSE': 0.524803826699283, 'R2': 0.6269290063010842}
+Fit time: 0.68s
+------------------------------------------------------------
+Trial 108/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.7554404900379124, 'MSE': 0.8768047404492775, 'R2': 0.3959072330838952}
+Validation: {'MAE': 0.7839327822526297, 'MSE': 0.9707605760265616, 'R2': 0.309908589996842}
+Fit time: 0.37s
+------------------------------------------------------------
+Trial 109/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.40188978121901997, 'MSE': 0.27960871887283467, 'R2': 0.8073577880621309}
+Validation: {'MAE': 0.560023593484291, 'MSE': 0.5743794621915691, 'R2': 0.5916868250222493}
+Fit time: 0.75s
+------------------------------------------------------------
+Trial 110/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.20779224889532527, 'MSE': 0.07944447741858027, 'R2': 0.9452650835858813}
+Validation: {'MAE': 0.5230465692664896, 'MSE': 0.5301779349982926, 'R2': 0.6231086760722311}
+Fit time: 0.50s
+------------------------------------------------------------
+Trial 111/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.20763939275565957, 'MSE': 0.07636454715356776, 'R2': 0.9473870652653449}
+Validation: {'MAE': 0.4880281790565877, 'MSE': 0.48425473651646533, 'R2': 0.6557544237208377}
+Fit time: 1.25s
+------------------------------------------------------------
+Trial 112/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.294762075754714, 'MSE': 0.14273072757462607, 'R2': 0.9016627121560452}
+Validation: {'MAE': 0.5253851730191992, 'MSE': 0.5386212401847004, 'R2': 0.6171065242285455}
+Fit time: 1.03s
+------------------------------------------------------------
+Trial 113/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.7423365528796402, 'MSE': 0.8313650671423838, 'R2': 0.42721383615000075}
+Validation: {'MAE': 0.7779783288978395, 'MSE': 0.95626434714565, 'R2': 0.3202136263520504}
+Fit time: 0.39s
+------------------------------------------------------------
+Trial 114/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.09397051487466768, 'MSE': 0.016524218968043198, 'R2': 0.9886152974578833}
+Validation: {'MAE': 0.4818887246275941, 'MSE': 0.5031493869020431, 'R2': 0.6423226504823009}
+Fit time: 1.87s
+------------------------------------------------------------
+Trial 115/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.21449821531523983, 'MSE': 0.07089771592710128, 'R2': 0.951153551746893}
+Validation: {'MAE': 0.5106411194842132, 'MSE': 0.5346218479779713, 'R2': 0.6199496003435584}
+Fit time: 1.15s
+------------------------------------------------------------
+Trial 116/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.21525949975748518, 'MSE': 0.0781433964258339, 'R2': 0.9461614902550417}
+Validation: {'MAE': 0.513868733527405, 'MSE': 0.5381894789678943, 'R2': 0.6174134533666342}
+Fit time: 1.14s
+------------------------------------------------------------
+Trial 117/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.21103172793425068, 'MSE': 0.08036565981210893, 'R2': 0.944630415916708}
+Validation: {'MAE': 0.5201582426203504, 'MSE': 0.5586247641527348, 'R2': 0.6028864782140737}
+Fit time: 1.25s
+------------------------------------------------------------
+Trial 118/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.5727657725943386, 'MSE': 0.5188285668653907, 'R2': 0.6425423243580624}
+Validation: {'MAE': 0.66948762384128, 'MSE': 0.7298412142033377, 'R2': 0.4811726340911714}
+Fit time: 0.36s
+------------------------------------------------------------
+Trial 119/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.223903255167711, 'MSE': 0.09857142515335426, 'R2': 0.9320871772097835}
+Validation: {'MAE': 0.5264270221278781, 'MSE': 0.5410361151447414, 'R2': 0.6153898450521238}
+Fit time: 1.10s
+------------------------------------------------------------
+Trial 120/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.2786763594827942, 'MSE': 0.1278924570995845, 'R2': 0.9118858456018388}
+Validation: {'MAE': 0.5216721337011881, 'MSE': 0.545758458683897, 'R2': 0.6120328394300021}
+Fit time: 0.84s
+------------------------------------------------------------
+Trial 121/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.2109999839914131, 'MSE': 0.08255210203150579, 'R2': 0.9431240213124306}
+Validation: {'MAE': 0.49396235341543243, 'MSE': 0.49748651269712496, 'R2': 0.6463482577651367}
+Fit time: 1.59s
+------------------------------------------------------------
+Trial 122/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.14576873221727216, 'MSE': 0.036428776665602444, 'R2': 0.974901640609269}
+Validation: {'MAE': 0.49872858724210944, 'MSE': 0.5196689032240459, 'R2': 0.6305793055291277}
+Fit time: 0.89s
+------------------------------------------------------------
+Trial 123/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.2915714385061306, 'MSE': 0.1498539353817986, 'R2': 0.8967550307589894}
+Validation: {'MAE': 0.5265531967353253, 'MSE': 0.5364882456730912, 'R2': 0.6186228210646514}
+Fit time: 1.32s
+------------------------------------------------------------
+Trial 124/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.3551971563705897, 'MSE': 0.2206078116962863, 'R2': 0.8480076837830166}
+Validation: {'MAE': 0.5571080428322865, 'MSE': 0.5626937829898387, 'R2': 0.599993906125784}
+Fit time: 0.28s
+------------------------------------------------------------
+Trial 125/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.35353808216772376, 'MSE': 0.2149543036795586, 'R2': 0.8519027851015353}
+Validation: {'MAE': 0.5495696364909056, 'MSE': 0.5793641159679306, 'R2': 0.5881433490737444}
+Fit time: 0.96s
+------------------------------------------------------------
+Trial 126/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.28318066471381603, 'MSE': 0.1550106325423939, 'R2': 0.8932022175587595}
+Validation: {'MAE': 0.5515213195146338, 'MSE': 0.5678950121515741, 'R2': 0.5962964717072345}
+Fit time: 4.18s
+------------------------------------------------------------
+Trial 127/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.5970187137458208, 'MSE': 0.5577771376223126, 'R2': 0.615707900693883}
+Validation: {'MAE': 0.6869317480921746, 'MSE': 0.7613575417992116, 'R2': 0.45876840025034116}
+Fit time: 0.74s
+------------------------------------------------------------
+Trial 128/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.4936510938872206, 'MSE': 0.3778950640311593, 'R2': 0.7396413770327606}
+Validation: {'MAE': 0.631933268919942, 'MSE': 0.6675050234086811, 'R2': 0.5254860012200537}
+Fit time: 1.19s
+------------------------------------------------------------
+Trial 129/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.25234766964932037, 'MSE': 0.11793995681161137, 'R2': 0.9187428265912599}
+Validation: {'MAE': 0.5023718131340685, 'MSE': 0.511960392547314, 'R2': 0.6360591088228543}
+Fit time: 2.04s
+------------------------------------------------------------
+Trial 130/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.3232235772792864, 'MSE': 0.1942582396154526, 'R2': 0.8661617666375527}
+Validation: {'MAE': 0.5417224593113753, 'MSE': 0.5522102396323757, 'R2': 0.6074464164522674}
+Fit time: 1.30s
+------------------------------------------------------------
+Trial 131/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.6425703803731705, 'MSE': 0.6479097913391285, 'R2': 0.5536091440820257}
+Validation: {'MAE': 0.7004327616578055, 'MSE': 0.7778307473776018, 'R2': 0.44705797654175405}
+Fit time: 0.92s
+------------------------------------------------------------
+Trial 132/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.09320711549588513, 'MSE': 0.0148264428432821, 'R2': 0.9897850154458193}
+Validation: {'MAE': 0.47854282273631543, 'MSE': 0.49408718658227824, 'R2': 0.6487647606697531}
+Fit time: 1.84s
+------------------------------------------------------------
+Trial 133/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.25060001857523595, 'MSE': 0.10952630300053585, 'R2': 0.9245395874618758}
+Validation: {'MAE': 0.5362193377000235, 'MSE': 0.5433598179136501, 'R2': 0.6137379780935498}
+Fit time: 1.24s
+------------------------------------------------------------
+Trial 134/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.31439293299556753, 'MSE': 0.16500166080957768, 'R2': 0.8863186919209219}
+Validation: {'MAE': 0.5531984194045265, 'MSE': 0.5869960108463672, 'R2': 0.5827180101923352}
+Fit time: 1.17s
+------------------------------------------------------------
+Trial 135/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.3633911386474889, 'MSE': 0.21809589103200316, 'R2': 0.8497383234960079}
+Validation: {'MAE': 0.5719959752863008, 'MSE': 0.6139802110472486, 'R2': 0.5635355616830909}
+Fit time: 0.27s
+------------------------------------------------------------
+Trial 136/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.4098111948988379, 'MSE': 0.2861870766351096, 'R2': 0.8028254923763886}
+Validation: {'MAE': 0.5692629413189633, 'MSE': 0.5915068757864158, 'R2': 0.5795113398518961}
+Fit time: 0.33s
+------------------------------------------------------------
+Trial 137/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.5498940390305687, 'MSE': 0.4787926995520264, 'R2': 0.6701258634808362}
+Validation: {'MAE': 0.6462342004863368, 'MSE': 0.6909298205305733, 'R2': 0.5088338506547201}
+Fit time: 0.48s
+------------------------------------------------------------
+Trial 138/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.47342437122377473, 'MSE': 0.36283623836596224, 'R2': 0.7500164665400719}
+Validation: {'MAE': 0.6109854030751046, 'MSE': 0.6512669764950952, 'R2': 0.5370292560318225}
+Fit time: 0.37s
+------------------------------------------------------------
+Trial 139/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.3961551295425383, 'MSE': 0.27123274452091667, 'R2': 0.8131285888897768}
+Validation: {'MAE': 0.5641420695043745, 'MSE': 0.5782529529414049, 'R2': 0.5889332493629147}
+Fit time: 2.56s
+------------------------------------------------------------
+Trial 140/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.44373220867213203, 'MSE': 0.30900247827223054, 'R2': 0.7871063493706056}
+Validation: {'MAE': 0.6194423403580275, 'MSE': 0.6463591585502623, 'R2': 0.5405181111514352}
+Fit time: 1.63s
+------------------------------------------------------------
+Trial 141/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.13871995954903588, 'MSE': 0.040916849898256086, 'R2': 0.9718094896979422}
+Validation: {'MAE': 0.5055872158447192, 'MSE': 0.5040009433673482, 'R2': 0.6417172985383179}
+Fit time: 0.57s
+------------------------------------------------------------
+Trial 142/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.0818663809039364, 'MSE': 0.010966744595767306, 'R2': 0.9924442344101325}
+Validation: {'MAE': 0.4966633842166159, 'MSE': 0.5198879205457884, 'R2': 0.6304236111425725}
+Fit time: 1.07s
+------------------------------------------------------------
+Trial 143/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.42210166715120984, 'MSE': 0.30337869123261085, 'R2': 0.7909809738070224}
+Validation: {'MAE': 0.5662333201599263, 'MSE': 0.577823136910994, 'R2': 0.5892387957126463}
+Fit time: 1.33s
+------------------------------------------------------------
+Trial 144/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.38842923661733286, 'MSE': 0.23461404113131654, 'R2': 0.8383578022265669}
+Validation: {'MAE': 0.5834014394921916, 'MSE': 0.6284062720052734, 'R2': 0.5532804060935808}
+Fit time: 0.36s
+------------------------------------------------------------
+Trial 145/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.48205043348350696, 'MSE': 0.37901264515759553, 'R2': 0.7388713963930846}
+Validation: {'MAE': 0.6035072576735346, 'MSE': 0.6322859900646165, 'R2': 0.5505224035828633}
+Fit time: 1.64s
+------------------------------------------------------------
+Trial 146/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.6358315865678402, 'MSE': 0.6350678664862924, 'R2': 0.5624568539072524}
+Validation: {'MAE': 0.6926252356994721, 'MSE': 0.766280429653322, 'R2': 0.45526883227814796}
+Fit time: 0.29s
+------------------------------------------------------------
+Trial 147/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.3116541120150415, 'MSE': 0.16304253835984386, 'R2': 0.8876684698666716}
+Validation: {'MAE': 0.5309074797408567, 'MSE': 0.5526091459807035, 'R2': 0.607162843086007}
+Fit time: 1.04s
+------------------------------------------------------------
+Trial 148/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.2849019679218611, 'MSE': 0.14574870750048682, 'R2': 0.8995834124444854}
+Validation: {'MAE': 0.5314780831280209, 'MSE': 0.5489935590471039, 'R2': 0.6097330808424777}
+Fit time: 1.09s
+------------------------------------------------------------
+Trial 149/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.22507563219179708, 'MSE': 0.08604014194865248, 'R2': 0.9407208640443901}
+Validation: {'MAE': 0.5322536734977649, 'MSE': 0.5491919296404242, 'R2': 0.6095920637412189}
+Fit time: 1.13s
+------------------------------------------------------------
+Trial 150/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5273810691445584, 'MSE': 0.4552952589653105, 'R2': 0.6863149113322458}
+Validation: {'MAE': 0.6315767380187199, 'MSE': 0.6708072876802395, 'R2': 0.5231384973518082}
+Fit time: 0.33s
+------------------------------------------------------------
+Trial 151/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.1287327474179051, 'MSE': 0.027995122766366114, 'R2': 0.9807121809544226}
+Validation: {'MAE': 0.4671247921289788, 'MSE': 0.4700993704530263, 'R2': 0.6658171485235003}
+Fit time: 1.90s
+------------------------------------------------------------
+Trial 152/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.03946001137474723, 'MSE': 0.003783928329111507, 'R2': 0.9973929842886411}
+Validation: {'MAE': 0.47162882546370943, 'MSE': 0.4725238869205712, 'R2': 0.6640936154207115}
+Fit time: 3.69s
+------------------------------------------------------------
+Trial 153/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.09912436259368024, 'MSE': 0.02063197873693552, 'R2': 0.9857851713760544}
+Validation: {'MAE': 0.49359167348877314, 'MSE': 0.5015844880645159, 'R2': 0.6434351011441537}
+Fit time: 1.66s
+------------------------------------------------------------
+Trial 154/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.1663363092642893, 'MSE': 0.052859785020780654, 'R2': 0.9635811574474019}
+Validation: {'MAE': 0.5094603130377474, 'MSE': 0.5368414948509508, 'R2': 0.6183717043328313}
+Fit time: 0.93s
+------------------------------------------------------------
+Trial 155/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5974976160108068, 'MSE': 0.5672509743024272, 'R2': 0.609180704900588}
+Validation: {'MAE': 0.6702171397608305, 'MSE': 0.7279824751751613, 'R2': 0.48249396899955044}
+Fit time: 1.19s
+------------------------------------------------------------
+Trial 156/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.7401152693061601, 'MSE': 0.8432234287550621, 'R2': 0.4190437725688847}
+Validation: {'MAE': 0.7734665057999748, 'MSE': 0.9409288096889324, 'R2': 0.33111530790774324}
+Fit time: 0.49s
+------------------------------------------------------------
+Trial 157/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.5062762876687061, 'MSE': 0.42639926099089936, 'R2': 0.7062234069914044}
+Validation: {'MAE': 0.6119883825271611, 'MSE': 0.6416452088421026, 'R2': 0.5438691497917796}
+Fit time: 0.53s
+------------------------------------------------------------
+Trial 158/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.15272735554708303, 'MSE': 0.0386518626419659, 'R2': 0.9733699995304745}
+Validation: {'MAE': 0.48598868270573164, 'MSE': 0.5047425198767322, 'R2': 0.6411901288204451}
+Fit time: 1.68s
+------------------------------------------------------------
+Trial 159/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.19088127466736893, 'MSE': 0.060423175383528455, 'R2': 0.9583702031713589}
+Validation: {'MAE': 0.49603701123151744, 'MSE': 0.5019092293323113, 'R2': 0.6432042500312085}
+Fit time: 0.86s
+------------------------------------------------------------
+Trial 160/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.07119045314532317, 'MSE': 0.009866716357060493, 'R2': 0.9932021216246403}
+Validation: {'MAE': 0.48193893593975473, 'MSE': 0.4887148112975392, 'R2': 0.652583858938542}
+Fit time: 1.76s
+------------------------------------------------------------
+Trial 161/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.1971089233608571, 'MSE': 0.0605107641412347, 'R2': 0.9583098570845364}
+Validation: {'MAE': 0.5124365599091564, 'MSE': 0.5211564946423122, 'R2': 0.6295218109370606}
+Fit time: 0.66s
+------------------------------------------------------------
+Trial 162/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.5534676283783989, 'MSE': 0.49498504537973104, 'R2': 0.6589698118051708}
+Validation: {'MAE': 0.6522837626006277, 'MSE': 0.6947202845635643, 'R2': 0.506139296782539}
+Fit time: 0.41s
+------------------------------------------------------------
+Trial 163/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.496178256088646, 'MSE': 0.40997344506700983, 'R2': 0.7175403127203043}
+Validation: {'MAE': 0.608532008949135, 'MSE': 0.6448127578585796, 'R2': 0.5416174119060262}
+Fit time: 0.23s
+------------------------------------------------------------
+Trial 164/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.20680878158155386, 'MSE': 0.07505308916344863, 'R2': 0.948290621381544}
+Validation: {'MAE': 0.4902720023571691, 'MSE': 0.49091499248322357, 'R2': 0.6510198006380845}
+Fit time: 1.47s
+------------------------------------------------------------
+Trial 165/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.2841420696241202, 'MSE': 0.1324460005635828, 'R2': 0.9087485876200561}
+Validation: {'MAE': 0.5327524604560098, 'MSE': 0.5510181029611808, 'R2': 0.6082938790467093}
+Fit time: 0.57s
+------------------------------------------------------------
+Trial 166/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.5669382696855657, 'MSE': 0.5054917259161819, 'R2': 0.651731016867639}
+Validation: {'MAE': 0.6617269950012366, 'MSE': 0.7136608477115988, 'R2': 0.4926748852150843}
+Fit time: 0.30s
+------------------------------------------------------------
+Trial 167/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.05946243738267471, 'MSE': 0.007894220911491256, 'R2': 0.9945611131725564}
+Validation: {'MAE': 0.4825321131511813, 'MSE': 0.489122576080992, 'R2': 0.6522939883140938}
+Fit time: 1.36s
+------------------------------------------------------------
+Trial 168/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.4815212391031285, 'MSE': 0.3661824356508329, 'R2': 0.747711034688245}
+Validation: {'MAE': 0.604533697642386, 'MSE': 0.6326151245836987, 'R2': 0.550288429408424}
+Fit time: 0.37s
+------------------------------------------------------------
+Trial 169/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.299917292346557, 'MSE': 0.1574510320598632, 'R2': 0.8915208538196294}
+Validation: {'MAE': 0.5205306221750521, 'MSE': 0.5401910179961695, 'R2': 0.6159906052161126}
+Fit time: 0.81s
+------------------------------------------------------------
+Trial 170/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.5053655205893308, 'MSE': 0.4196868831658493, 'R2': 0.7108480385722544}
+Validation: {'MAE': 0.6114372498630768, 'MSE': 0.6494201803539922, 'R2': 0.5383421010159262}
+Fit time: 0.27s
+------------------------------------------------------------
+Trial 171/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.6864989065307947, 'MSE': 0.7323223833405226, 'R2': 0.4954513423363903}
+Validation: {'MAE': 0.7394914376962753, 'MSE': 0.8678572920215432, 'R2': 0.3830601724845054}
+Fit time: 0.55s
+------------------------------------------------------------
+Trial 172/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5524712355959153, 'MSE': 0.48657687484377804, 'R2': 0.6647627948599426}
+Validation: {'MAE': 0.6441190599256329, 'MSE': 0.691939359057678, 'R2': 0.5081161928894307}
+Fit time: 0.48s
+------------------------------------------------------------
+Trial 173/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.5735991433231766, 'MSE': 0.5314752375780881, 'R2': 0.6338291389124686}
+Validation: {'MAE': 0.6523298458797591, 'MSE': 0.7073674106570744, 'R2': 0.4971487451533396}
+Fit time: 0.27s
+------------------------------------------------------------
+Trial 174/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.6557077198159393, 'MSE': 0.656255016099642, 'R2': 0.5478595288215833}
+Validation: {'MAE': 0.7128489460292318, 'MSE': 0.8164052804523795, 'R2': 0.4196362264447884}
+Fit time: 0.61s
+------------------------------------------------------------
+Trial 175/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3435875497086714, 'MSE': 0.20812861411929554, 'R2': 0.8566054851467664}
+Validation: {'MAE': 0.5385000986239229, 'MSE': 0.546515006178552, 'R2': 0.6114950271823543}
+Fit time: 0.75s
+------------------------------------------------------------
+Trial 176/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.20741500772040064, 'MSE': 0.07161642705411822, 'R2': 0.9506583808458887}
+Validation: {'MAE': 0.5081480130397138, 'MSE': 0.5095427146557853, 'R2': 0.6377777805389303}
+Fit time: 1.11s
+------------------------------------------------------------
+Trial 177/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.3999308522089528, 'MSE': 0.2754541820174165, 'R2': 0.8102201421855342}
+Validation: {'MAE': 0.5718096227969398, 'MSE': 0.5855213111397656, 'R2': 0.5837663403625049}
+Fit time: 0.92s
+------------------------------------------------------------
+Trial 178/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.6950790294479756, 'MSE': 0.751664206754975, 'R2': 0.4821253929150262}
+Validation: {'MAE': 0.7396632815031778, 'MSE': 0.859718362162586, 'R2': 0.38884595089474316}
+Fit time: 0.30s
+------------------------------------------------------------
+Trial 179/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.180718364797527, 'MSE': 0.059785669119949585, 'R2': 0.9588094263015787}
+Validation: {'MAE': 0.514910904672529, 'MSE': 0.5253269504506621, 'R2': 0.6265571296343648}
+Fit time: 0.37s
+------------------------------------------------------------
+Trial 180/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5675885508831678, 'MSE': 0.5115967564050593, 'R2': 0.6475248297999876}
+Validation: {'MAE': 0.654806480798338, 'MSE': 0.7110716553608656, 'R2': 0.49451548262315015}
+Fit time: 0.97s
+------------------------------------------------------------
+Trial 181/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.30553553578706594, 'MSE': 0.1647562016837231, 'R2': 0.886487806064199}
+Validation: {'MAE': 0.5529643101341845, 'MSE': 0.5740080420375979, 'R2': 0.5919508590838782}
+Fit time: 0.34s
+------------------------------------------------------------
+Trial 182/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.6434240146214918, 'MSE': 0.6480691381959158, 'R2': 0.5534993587681749}
+Validation: {'MAE': 0.7006051752879505, 'MSE': 0.7755652963088981, 'R2': 0.44866843370380105}
+Fit time: 0.26s
+------------------------------------------------------------
+Trial 183/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.425112119644215, 'MSE': 0.2885193604778439, 'R2': 0.8012186171682674}
+Validation: {'MAE': 0.575156101630912, 'MSE': 0.5951526745300684, 'R2': 0.576919625213161}
+Fit time: 0.31s
+------------------------------------------------------------
+Trial 184/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.4077448584150101, 'MSE': 0.2754373494805321, 'R2': 0.8102317393100837}
+Validation: {'MAE': 0.5690778709940967, 'MSE': 0.5829719943369179, 'R2': 0.585578591158909}
+Fit time: 0.84s
+------------------------------------------------------------
+Trial 185/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.24990473722141804, 'MSE': 0.11655267105964137, 'R2': 0.9196986258128534}
+Validation: {'MAE': 0.5181841234990529, 'MSE': 0.5213146931803608, 'R2': 0.6294093512277579}
+Fit time: 1.13s
+------------------------------------------------------------
+Trial 186/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.38520834158692535, 'MSE': 0.25644037747938153, 'R2': 0.8233200962153197}
+Validation: {'MAE': 0.5600995643386019, 'MSE': 0.570924838906547, 'R2': 0.5941426374158146}
+Fit time: 2.56s
+------------------------------------------------------------
+Trial 187/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.473796714308849, 'MSE': 0.3718218919017985, 'R2': 0.7438256146244774}
+Validation: {'MAE': 0.5975293782360497, 'MSE': 0.6214496851343471, 'R2': 0.5582256840139272}
+Fit time: 0.66s
+------------------------------------------------------------
+Trial 188/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.27956176335467137, 'MSE': 0.13529008365242873, 'R2': 0.906789097732262}
+Validation: {'MAE': 0.538268575381288, 'MSE': 0.5495992659980566, 'R2': 0.609302497674852}
+Fit time: 0.32s
+------------------------------------------------------------
+Trial 189/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.0737933565848119, 'MSE': 0.008662421832843863, 'R2': 0.9940318452538067}
+Validation: {'MAE': 0.4953639371753448, 'MSE': 0.5061193100508324, 'R2': 0.640211400289449}
+Fit time: 1.37s
+------------------------------------------------------------
+Trial 190/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.6949090409165781, 'MSE': 0.7464259714256364, 'R2': 0.48573438352362686}
+Validation: {'MAE': 0.7434382829439073, 'MSE': 0.8640818919604206, 'R2': 0.38574401772487366}
+Fit time: 0.62s
+------------------------------------------------------------
+Trial 191/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.43850018691702136, 'MSE': 0.3127869093875376, 'R2': 0.7844989872542947}
+Validation: {'MAE': 0.5968108277601145, 'MSE': 0.6282255682420071, 'R2': 0.5534088642508905}
+Fit time: 0.57s
+------------------------------------------------------------
+Trial 192/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.15082566563769553, 'MSE': 0.037629503785664695, 'R2': 0.9740743748170038}
+Validation: {'MAE': 0.49919143589648113, 'MSE': 0.5120939140123062, 'R2': 0.6359641914783332}
+Fit time: 0.78s
+------------------------------------------------------------
+Trial 193/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.09424821222365358, 'MSE': 0.015175640196256928, 'R2': 0.9895444287046365}
+Validation: {'MAE': 0.5042273118687527, 'MSE': 0.5315673061282953, 'R2': 0.6221210040284757}
+Fit time: 0.82s
+------------------------------------------------------------
+Trial 194/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.0855060099895953, 'MSE': 0.012109935243273804, 'R2': 0.9916566095610573}
+Validation: {'MAE': 0.48222694143289263, 'MSE': 0.4839238444278362, 'R2': 0.6559896473111235}
+Fit time: 2.11s
+------------------------------------------------------------
+Trial 195/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.5920035465202157, 'MSE': 0.5581058445455337, 'R2': 0.6154814312582236}
+Validation: {'MAE': 0.6650478211400054, 'MSE': 0.7142314888533924, 'R2': 0.4922692295262656}
+Fit time: 1.26s
+------------------------------------------------------------
+Trial 196/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.4965796538317531, 'MSE': 0.3963897318108432, 'R2': 0.7268990930135175}
+Validation: {'MAE': 0.6130954505666381, 'MSE': 0.6345791394985426, 'R2': 0.5488922562887867}
+Fit time: 0.67s
+------------------------------------------------------------
+Trial 197/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.3808058182101481, 'MSE': 0.2392318112139786, 'R2': 0.8351762939870148}
+Validation: {'MAE': 0.5704016222549336, 'MSE': 0.5962385667829531, 'R2': 0.5761476893368898}
+Fit time: 0.38s
+------------------------------------------------------------
+Trial 198/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.03, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.31755601593697924, 'MSE': 0.17012648514186454, 'R2': 0.8827878381652}
+Validation: {'MAE': 0.5394896267244504, 'MSE': 0.5400647296421472, 'R2': 0.6160803807080788}
+Fit time: 1.02s
+------------------------------------------------------------
+Trial 199/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.06037990776329146, 'MSE': 0.007318006147975073, 'R2': 0.9949581082556943}
+Validation: {'MAE': 0.5024152661171698, 'MSE': 0.5508153331319607, 'R2': 0.6084380234637862}
+Fit time: 1.35s
+------------------------------------------------------------
+Trial 200/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.2082043027765273, 'MSE': 0.07748436745369779, 'R2': 0.9466155419006242}
+Validation: {'MAE': 0.5177318678037042, 'MSE': 0.5263305653963177, 'R2': 0.6258436828071539}
+Fit time: 0.53s
+------------------------------------------------------------
+Trial 201/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.09597111616152687, 'MSE': 0.01988510495139192, 'R2': 0.9862997455233325}
+Validation: {'MAE': 0.4766494696917279, 'MSE': 0.4906699482969326, 'R2': 0.651193996925209}
+Fit time: 1.41s
+------------------------------------------------------------
+Trial 202/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.38309746363664243, 'MSE': 0.2420292068446799, 'R2': 0.8332489703894672}
+Validation: {'MAE': 0.5695574183600645, 'MSE': 0.5918459685117441, 'R2': 0.5792702866172237}
+Fit time: 0.51s
+------------------------------------------------------------
+Trial 203/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.3192717644757192, 'MSE': 0.17728707233647317, 'R2': 0.8778544034657951}
+Validation: {'MAE': 0.5455818148109884, 'MSE': 0.5748227254222341, 'R2': 0.5913717193665332}
+Fit time: 0.70s
+------------------------------------------------------------
+Trial 204/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.39593749229981945, 'MSE': 0.2629468379691775, 'R2': 0.8188373356429975}
+Validation: {'MAE': 0.5614779508702812, 'MSE': 0.5904512255190536, 'R2': 0.5802617773948544}
+Fit time: 0.36s
+------------------------------------------------------------
+Trial 205/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5157993384954365, 'MSE': 0.436474545815288, 'R2': 0.6992818310552227}
+Validation: {'MAE': 0.6150586434084744, 'MSE': 0.6476257755548561, 'R2': 0.539617702197652}
+Fit time: 1.69s
+------------------------------------------------------------
+Trial 206/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.4876660368588858, 'MSE': 0.390614050657571, 'R2': 0.730878368042206}
+Validation: {'MAE': 0.6123453002828338, 'MSE': 0.6513244767277996, 'R2': 0.536988380436292}
+Fit time: 1.67s
+------------------------------------------------------------
+Trial 207/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.6817911179321153, 'MSE': 0.7346565313165963, 'R2': 0.49384318279503625}
+Validation: {'MAE': 0.739018148024877, 'MSE': 0.8815051898841678, 'R2': 0.37335819517703384}
+Fit time: 0.66s
+------------------------------------------------------------
+Trial 208/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.08319973936294472, 'MSE': 0.01291456544482277, 'R2': 0.991102242935999}
+Validation: {'MAE': 0.509633461818099, 'MSE': 0.5292615766657683, 'R2': 0.6237600941761143}
+Fit time: 1.01s
+------------------------------------------------------------
+Trial 209/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.1422967496852313, 'MSE': 0.03075862732522991, 'R2': 0.9788082073120197}
+Validation: {'MAE': 0.49495653373269094, 'MSE': 0.5159326786411697, 'R2': 0.6332353018212711}
+Fit time: 0.97s
+------------------------------------------------------------
+Trial 210/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.3304938082976233, 'MSE': 0.19000755558707838, 'R2': 0.8690903633450373}
+Validation: {'MAE': 0.5399047337202798, 'MSE': 0.5564493430142202, 'R2': 0.6044329351653572}
+Fit time: 1.04s
+------------------------------------------------------------
+Trial 211/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.46704276949796725, 'MSE': 0.3590318585797452, 'R2': 0.7526375727059419}
+Validation: {'MAE': 0.5923053227104247, 'MSE': 0.6281881361458327, 'R2': 0.5534354738688193}
+Fit time: 0.24s
+------------------------------------------------------------
+Trial 212/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.531005068385519, 'MSE': 0.46277289423399964, 'R2': 0.6811630398025169}
+Validation: {'MAE': 0.6234601803858365, 'MSE': 0.6628700233877379, 'R2': 0.5287809163400203}
+Fit time: 0.69s
+------------------------------------------------------------
+Trial 213/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.6353356229923292, 'MSE': 0.6304850973803837, 'R2': 0.5656142474997043}
+Validation: {'MAE': 0.6956961362078077, 'MSE': 0.7635375453218776, 'R2': 0.4572186857873517}
+Fit time: 0.92s
+------------------------------------------------------------
+Trial 214/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.4113517905914008, 'MSE': 0.2902733737011428, 'R2': 0.8000101534677551}
+Validation: {'MAE': 0.5760591175015128, 'MSE': 0.598037028008328, 'R2': 0.5748692045348647}
+Fit time: 0.48s
+------------------------------------------------------------
+Trial 215/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.00647717009740691, 'MSE': 0.0009393333944835146, 'R2': 0.9993528268231767}
+Validation: {'MAE': 0.4902907592760666, 'MSE': 0.5122377310507619, 'R2': 0.6358619552469686}
+Fit time: 2.00s
+------------------------------------------------------------
+Trial 216/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.36653488816391716, 'MSE': 0.22875029518467452, 'R2': 0.8423977513166973}
+Validation: {'MAE': 0.5542719037603764, 'MSE': 0.5699408518411084, 'R2': 0.594842131233531}
+Fit time: 1.15s
+------------------------------------------------------------
+Trial 217/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.2618328493710516, 'MSE': 0.11113836400701922, 'R2': 0.9234289246781127}
+Validation: {'MAE': 0.5272150578727014, 'MSE': 0.5418726585354996, 'R2': 0.6147951655582159}
+Fit time: 1.61s
+------------------------------------------------------------
+Trial 218/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.0840352345895219, 'MSE': 0.011739721504384598, 'R2': 0.9919116759761423}
+Validation: {'MAE': 0.5054742787356178, 'MSE': 0.5360726973281114, 'R2': 0.6189182248443201}
+Fit time: 0.88s
+------------------------------------------------------------
+Trial 219/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.5614181809102051, 'MSE': 0.5081154779856861, 'R2': 0.6499233285942423}
+Validation: {'MAE': 0.6476449170091322, 'MSE': 0.6952702533592043, 'R2': 0.5057483365900738}
+Fit time: 0.49s
+------------------------------------------------------------
+Trial 220/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.4498044596228061, 'MSE': 0.33712760581431084, 'R2': 0.7677289608450169}
+Validation: {'MAE': 0.5979468188975893, 'MSE': 0.619988434294908, 'R2': 0.5592644536931455}
+Fit time: 1.67s
+------------------------------------------------------------
+Trial 221/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.6328614990591388, 'MSE': 0.6273239405894177, 'R2': 0.5677921918747905}
+Validation: {'MAE': 0.6932635249147813, 'MSE': 0.7621991224173669, 'R2': 0.45817013990710476}
+Fit time: 0.25s
+------------------------------------------------------------
+Trial 222/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.585964987872586, 'MSE': 0.5489809669471282, 'R2': 0.6217682044722542}
+Validation: {'MAE': 0.66267247650524, 'MSE': 0.7215249170410437, 'R2': 0.4870844988459424}
+Fit time: 1.10s
+------------------------------------------------------------
+Trial 223/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.09632471247377108, 'MSE': 0.017864758581716454, 'R2': 0.9876917049554415}
+Validation: {'MAE': 0.5165902510385606, 'MSE': 0.544694196039486, 'R2': 0.61278939931411}
+Fit time: 0.67s
+------------------------------------------------------------
+Trial 224/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.46521816498101576, 'MSE': 0.3546368393217801, 'R2': 0.7556656121561315}
+Validation: {'MAE': 0.5896928220284837, 'MSE': 0.6208001464849463, 'R2': 0.5586874261298374}
+Fit time: 1.14s
+------------------------------------------------------------
+Trial 225/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.03, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.3080613227884197, 'MSE': 0.1679391916470679, 'R2': 0.8842948192732768}
+Validation: {'MAE': 0.5324024148530194, 'MSE': 0.5395318987284901, 'R2': 0.6164591579736369}
+Fit time: 1.42s
+------------------------------------------------------------
+Trial 226/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.48097220269462, 'MSE': 0.37052257297504976, 'R2': 0.7447208072818117}
+Validation: {'MAE': 0.60787092959597, 'MSE': 0.6348844108770991, 'R2': 0.5486752458731764}
+Fit time: 0.39s
+------------------------------------------------------------
+Trial 227/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.03, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.44496708317803896, 'MSE': 0.32479082356288724, 'R2': 0.7762286422236614}
+Validation: {'MAE': 0.5904192710782269, 'MSE': 0.6107375672916224, 'R2': 0.5658406826951301}
+Fit time: 0.92s
+------------------------------------------------------------
+Trial 228/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.25563476498729837, 'MSE': 0.10812157407226652, 'R2': 0.9255074045206779}
+Validation: {'MAE': 0.5295447969159909, 'MSE': 0.5457458804404315, 'R2': 0.6120417810145522}
+Fit time: 0.75s
+------------------------------------------------------------
+Trial 229/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.26248870820961506, 'MSE': 0.12318980185777595, 'R2': 0.9151258372280486}
+Validation: {'MAE': 0.5077688330340953, 'MSE': 0.5105742297464653, 'R2': 0.6370445001390601}
+Fit time: 0.76s
+------------------------------------------------------------
+Trial 230/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.4224796843932266, 'MSE': 0.28021928073909896, 'R2': 0.8069371288319173}
+Validation: {'MAE': 0.5789853541900714, 'MSE': 0.6118853416760319, 'R2': 0.5650247562320421}
+Fit time: 0.30s
+------------------------------------------------------------
+Trial 231/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.49387050635604895, 'MSE': 0.3921945666584642, 'R2': 0.7297894388427064}
+Validation: {'MAE': 0.6251099453972918, 'MSE': 0.6599859591629723, 'R2': 0.5308311313946474}
+Fit time: 1.20s
+------------------------------------------------------------
+Trial 232/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.4884530741385007, 'MSE': 0.39257280192522725, 'R2': 0.7295288458300284}
+Validation: {'MAE': 0.6104060722986414, 'MSE': 0.6380341669987204, 'R2': 0.5464361565479459}
+Fit time: 0.23s
+------------------------------------------------------------
+Trial 233/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5944259206960587, 'MSE': 0.5547761694213932, 'R2': 0.6177754798255741}
+Validation: {'MAE': 0.6739655186776958, 'MSE': 0.7452837743401431, 'R2': 0.47019487256887493}
+Fit time: 0.36s
+------------------------------------------------------------
+Trial 234/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.34283536734302256, 'MSE': 0.194188238852136, 'R2': 0.8662099951117469}
+Validation: {'MAE': 0.5395840861133876, 'MSE': 0.5479638730577568, 'R2': 0.6104650609761966}
+Fit time: 0.64s
+------------------------------------------------------------
+Trial 235/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.10327431792180176, 'MSE': 0.0213521468456355, 'R2': 0.9852889966573748}
+Validation: {'MAE': 0.4987123892459841, 'MSE': 0.5057545640210146, 'R2': 0.6404706898694198}
+Fit time: 0.65s
+------------------------------------------------------------
+Trial 236/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.045555507638915076, 'MSE': 0.004510298056338435, 'R2': 0.9968925368365668}
+Validation: {'MAE': 0.4968040879127525, 'MSE': 0.5233744687857543, 'R2': 0.6279451040313645}
+Fit time: 1.63s
+------------------------------------------------------------
+Trial 237/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.4343257543911404, 'MSE': 0.31950307672390044, 'R2': 0.7798717448112211}
+Validation: {'MAE': 0.5844794864282012, 'MSE': 0.6096223953772077, 'R2': 0.5666334328106779}
+Fit time: 0.42s
+------------------------------------------------------------
+Trial 238/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.4305289442515572, 'MSE': 0.29594432180887326, 'R2': 0.7961030364377066}
+Validation: {'MAE': 0.5818663085862285, 'MSE': 0.6143446164104852, 'R2': 0.563276514275173}
+Fit time: 0.32s
+------------------------------------------------------------
+Trial 239/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.3173493538549122, 'MSE': 0.185454026123421, 'R2': 0.8722276116809955}
+Validation: {'MAE': 0.5565996060211744, 'MSE': 0.5716459051917423, 'R2': 0.593630047945512}
+Fit time: 0.47s
+------------------------------------------------------------
+Trial 240/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.6031553743634902, 'MSE': 0.5794815130413055, 'R2': 0.600754222188077}
+Validation: {'MAE': 0.6700808680320071, 'MSE': 0.7260221099341339, 'R2': 0.48388754764984876}
+Fit time: 1.24s
+------------------------------------------------------------
+Trial 241/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.13612627457039034, 'MSE': 0.03427573158020659, 'R2': 0.9763850255670937}
+Validation: {'MAE': 0.497103428168311, 'MSE': 0.5235795379994195, 'R2': 0.6277993250346674}
+Fit time: 1.15s
+------------------------------------------------------------
+Trial 242/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3938234870901617, 'MSE': 0.25497170057169943, 'R2': 0.8243319715576141}
+Validation: {'MAE': 0.560260558461593, 'MSE': 0.5922617203648858, 'R2': 0.5789747381682742}
+Fit time: 1.07s
+------------------------------------------------------------
+Trial 243/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3895365508773989, 'MSE': 0.255137531114768, 'R2': 0.8242177191739531}
+Validation: {'MAE': 0.5738711276733803, 'MSE': 0.5964485520861078, 'R2': 0.5759984156050215}
+Fit time: 0.59s
+------------------------------------------------------------
+Trial 244/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.2814135119728245, 'MSE': 0.13215827329868648, 'R2': 0.9089468232722485}
+Validation: {'MAE': 0.5357924569767146, 'MSE': 0.5547753093449221, 'R2': 0.6056229672739613}
+Fit time: 0.53s
+------------------------------------------------------------
+Trial 245/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.030029644986921563, 'MSE': 0.0020858340841741615, 'R2': 0.9985629214520544}
+Validation: {'MAE': 0.5111717851953137, 'MSE': 0.5310884062506721, 'R2': 0.6224614429584867}
+Fit time: 1.02s
+------------------------------------------------------------
+Trial 246/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.49720757332195836, 'MSE': 0.4049567221654582, 'R2': 0.7209966877587157}
+Validation: {'MAE': 0.6120107905295278, 'MSE': 0.6412816240935768, 'R2': 0.5441276138435366}
+Fit time: 1.48s
+------------------------------------------------------------
+Trial 247/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.778381877062576, 'MSE': 0.9173144460940635, 'R2': 0.36799723323903066}
+Validation: {'MAE': 0.8020041371016277, 'MSE': 1.0145417181992238, 'R2': 0.27878558100821327}
+Fit time: 0.34s
+------------------------------------------------------------
+Trial 248/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.6366509836252245, 'MSE': 0.6456348035687847, 'R2': 0.5551765439756248}
+Validation: {'MAE': 0.7184757533186957, 'MSE': 0.8312017640917982, 'R2': 0.40911774587400784}
+Fit time: 0.80s
+------------------------------------------------------------
+Trial 249/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.20681437662472793, 'MSE': 0.07360117219251976, 'R2': 0.9492909496186511}
+Validation: {'MAE': 0.5026163321713961, 'MSE': 0.5080052991452942, 'R2': 0.6388706939344639}
+Fit time: 1.38s
+------------------------------------------------------------
+Trial 250/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.5518521556634278, 'MSE': 0.5004743774106309, 'R2': 0.6551878229288695}
+Validation: {'MAE': 0.6584150625240235, 'MSE': 0.7133770372373862, 'R2': 0.4928766395664247}
+Fit time: 1.04s
+------------------------------------------------------------
+Trial 251/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.2752996160508171, 'MSE': 0.13105686456730764, 'R2': 0.9097056616057448}
+Validation: {'MAE': 0.5242855654931848, 'MSE': 0.5271687605878834, 'R2': 0.6252478290859684}
+Fit time: 0.80s
+------------------------------------------------------------
+Trial 252/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.6154341297389363, 'MSE': 0.6016441766539865, 'R2': 0.5854847965493023}
+Validation: {'MAE': 0.6820855747803691, 'MSE': 0.7407356266760887, 'R2': 0.473428046341997}
+Fit time: 1.18s
+------------------------------------------------------------
+Trial 253/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3308840238118109, 'MSE': 0.1874938310355289, 'R2': 0.8708222458834829}
+Validation: {'MAE': 0.5557338635103688, 'MSE': 0.5817443558968812, 'R2': 0.5864512911458889}
+Fit time: 0.49s
+------------------------------------------------------------
+Trial 254/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.7821393315848849, 'MSE': 0.9371979155920944, 'R2': 0.35429810554179364}
+Validation: {'MAE': 0.8011877642926716, 'MSE': 1.0158936897397834, 'R2': 0.2778244954740975}
+Fit time: 0.33s
+------------------------------------------------------------
+Trial 255/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.3400621370163492, 'MSE': 0.20167217984719013, 'R2': 0.8610537791213743}
+Validation: {'MAE': 0.54893468847791, 'MSE': 0.561719304059264, 'R2': 0.6006866408286818}
+Fit time: 0.81s
+------------------------------------------------------------
+Trial 256/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.32243492577326005, 'MSE': 0.19143031522028395, 'R2': 0.8681101236590163}
+Validation: {'MAE': 0.5438058499621139, 'MSE': 0.5497009212130581, 'R2': 0.6092302333159698}
+Fit time: 0.89s
+------------------------------------------------------------
+Trial 257/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.29012017044110133, 'MSE': 0.15155945312350647, 'R2': 0.8955799790238849}
+Validation: {'MAE': 0.5241723143273875, 'MSE': 0.5379730331528593, 'R2': 0.6175673197280992}
+Fit time: 0.94s
+------------------------------------------------------------
+Trial 258/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.3453085809077047, 'MSE': 0.20822625170009143, 'R2': 0.8565382157153674}
+Validation: {'MAE': 0.551681302794743, 'MSE': 0.5856866524980461, 'R2': 0.5836488029862604}
+Fit time: 0.44s
+------------------------------------------------------------
+Trial 259/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.7501838751577194, 'MSE': 0.8736916506977247, 'R2': 0.3980520606776763}
+Validation: {'MAE': 0.7805525439807346, 'MSE': 0.966443975837574, 'R2': 0.3129771619850362}
+Fit time: 0.37s
+------------------------------------------------------------
+Trial 260/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.05413584172509546, 'MSE': 0.006323875540804366, 'R2': 0.9956430351059461}
+Validation: {'MAE': 0.4821607984180252, 'MSE': 0.4997350684919077, 'R2': 0.6447498110654946}
+Fit time: 1.80s
+------------------------------------------------------------
+Trial 261/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.2784170603841249, 'MSE': 0.13925194558440476, 'R2': 0.904059490983785}
+Validation: {'MAE': 0.5392550030137369, 'MSE': 0.5667267024286031, 'R2': 0.5971269962711239}
+Fit time: 0.98s
+------------------------------------------------------------
+Trial 262/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.23718828587352653, 'MSE': 0.08870604765626765, 'R2': 0.9388841331498634}
+Validation: {'MAE': 0.5178970756580432, 'MSE': 0.5258153623208404, 'R2': 0.6262099288471912}
+Fit time: 0.73s
+------------------------------------------------------------
+Trial 263/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.2, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.14240358722674865, 'MSE': 0.036535348098184865, 'R2': 0.9748282160158414}
+Validation: {'MAE': 0.5029731672746794, 'MSE': 0.5289871470806417, 'R2': 0.6239551798687388}
+Fit time: 0.74s
+------------------------------------------------------------
+Trial 264/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.3498509776463532, 'MSE': 0.21072062644614217, 'R2': 0.8548196646257652}
+Validation: {'MAE': 0.5513281589221387, 'MSE': 0.5720799690874678, 'R2': 0.5933214818858367}
+Fit time: 0.40s
+------------------------------------------------------------
+Trial 265/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.5172070574579938, 'MSE': 0.42448524405495636, 'R2': 0.7075421085602003}
+Validation: {'MAE': 0.6413831643466616, 'MSE': 0.677793423821177, 'R2': 0.5181722135337046}
+Fit time: 1.03s
+------------------------------------------------------------
+Trial 266/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.07441230325060176, 'MSE': 0.01095197140109429, 'R2': 0.9924544127082582}
+Validation: {'MAE': 0.47354194722076265, 'MSE': 0.47758294800407225, 'R2': 0.6604972450255568}
+Fit time: 3.27s
+------------------------------------------------------------
+Trial 267/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.13028468427300408, 'MSE': 0.03508799912981177, 'R2': 0.9758253970330762}
+Validation: {'MAE': 0.49519530892514046, 'MSE': 0.4942878103824984, 'R2': 0.6486221418154308}
+Fit time: 0.76s
+------------------------------------------------------------
+Trial 268/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.3654977627290174, 'MSE': 0.22026277756509072, 'R2': 0.8482454021864181}
+Validation: {'MAE': 0.5610733408193502, 'MSE': 0.5751225683257037, 'R2': 0.5911585679292533}
+Fit time: 0.35s
+------------------------------------------------------------
+Trial 269/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.5785359026053033, 'MSE': 0.5193008228054258, 'R2': 0.6422169538572571}
+Validation: {'MAE': 0.6717987239553006, 'MSE': 0.7278278081459837, 'R2': 0.4826039182402614}
+Fit time: 0.85s
+------------------------------------------------------------
+Trial 270/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.5215975908363581, 'MSE': 0.42992044757995324, 'R2': 0.7037974126379529}
+Validation: {'MAE': 0.6368206212059372, 'MSE': 0.6768233765629184, 'R2': 0.5188617978624805}
+Fit time: 0.44s
+------------------------------------------------------------
+Trial 271/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.283720188422342, 'MSE': 0.135721317993742, 'R2': 0.9064919899106281}
+Validation: {'MAE': 0.5259703198139157, 'MSE': 0.5580186584181056, 'R2': 0.603317344867861}
+Fit time: 0.87s
+------------------------------------------------------------
+Trial 272/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.49405599188784666, 'MSE': 0.3877744983808015, 'R2': 0.7328347363332779}
+Validation: {'MAE': 0.6155642177079405, 'MSE': 0.6484333310382344, 'R2': 0.5390436295416925}
+Fit time: 0.49s
+------------------------------------------------------------
+Trial 273/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.03, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.3692980763393404, 'MSE': 0.23676138995743196, 'R2': 0.8368783418244282}
+Validation: {'MAE': 0.5670774026831966, 'MSE': 0.5861604288825235, 'R2': 0.5833120062299186}
+Fit time: 0.88s
+------------------------------------------------------------
+Trial 274/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.2, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.07074542192529355, 'MSE': 0.010224998703167936, 'R2': 0.9929552755894713}
+Validation: {'MAE': 0.48499548667669296, 'MSE': 0.49153863960975863, 'R2': 0.6505764642114482}
+Fit time: 1.33s
+------------------------------------------------------------
+Trial 275/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.32367279980176716, 'MSE': 0.18540369970471549, 'R2': 0.8722622851084102}
+Validation: {'MAE': 0.5419122405807887, 'MSE': 0.5449373733803105, 'R2': 0.612616530124575}
+Fit time: 3.19s
+------------------------------------------------------------
+Trial 276/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.6370312933962726, 'MSE': 0.6269106619361356, 'R2': 0.5680769287536542}
+Validation: {'MAE': 0.7057001312516985, 'MSE': 0.7977884485189006, 'R2': 0.43287050492296053}
+Fit time: 0.64s
+------------------------------------------------------------
+Trial 277/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.6358955340040682, 'MSE': 0.6338503548850898, 'R2': 0.5632956837150682}
+Validation: {'MAE': 0.6991267000834147, 'MSE': 0.7779750748235867, 'R2': 0.4469553774733931}
+Fit time: 0.26s
+------------------------------------------------------------
+Trial 278/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 10.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.03, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.47687979372948336, 'MSE': 0.3797763770260627, 'R2': 0.7383452075207846}
+Validation: {'MAE': 0.5909085387002144, 'MSE': 0.6135211812913769, 'R2': 0.563861875399661}
+Fit time: 0.80s
+------------------------------------------------------------
+Trial 279/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 500, 'min_child_weight': 5, 'max_depth': 5, 'learning_rate': 0.2, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.1552755395947745, 'MSE': 0.04299831442674399, 'R2': 0.9703754216457922}
+Validation: {'MAE': 0.5027519127942977, 'MSE': 0.527143078734037, 'R2': 0.6252660857263492}
+Fit time: 1.00s
+------------------------------------------------------------
+Trial 280/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.01, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.7406964856889986, 'MSE': 0.8494854329867296, 'R2': 0.41472943519337047}
+Validation: {'MAE': 0.7702911772330603, 'MSE': 0.9491262276412243, 'R2': 0.32528795165452895}
+Fit time: 0.44s
+------------------------------------------------------------
+Trial 281/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.03, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5675502363796556, 'MSE': 0.5106297206048319, 'R2': 0.6481910891224076}
+Validation: {'MAE': 0.6518072950456824, 'MSE': 0.6990396204409677, 'R2': 0.5030687800562468}
+Fit time: 0.56s
+------------------------------------------------------------
+Trial 282/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.26212861937110404, 'MSE': 0.12955270976681138, 'R2': 0.9107419801763269}
+Validation: {'MAE': 0.5417814432297434, 'MSE': 0.5560234476167484, 'R2': 0.6047356944271292}
+Fit time: 1.00s
+------------------------------------------------------------
+Trial 283/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.6540483377433959, 'MSE': 0.6734781627333822, 'R2': 0.5359932856034562}
+Validation: {'MAE': 0.724603081998371, 'MSE': 0.8467897588336044, 'R2': 0.3980365982294206}
+Fit time: 0.67s
+------------------------------------------------------------
+Trial 284/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 500, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.4377306878492486, 'MSE': 0.3077871715816641, 'R2': 0.7879436600596191}
+Validation: {'MAE': 0.5836851023362196, 'MSE': 0.6113132527120198, 'R2': 0.5654314411444417}
+Fit time: 0.81s
+------------------------------------------------------------
+Trial 285/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 1.0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.22417646852423648, 'MSE': 0.08732305225709625, 'R2': 0.9398369764441294}
+Validation: {'MAE': 0.5087993819674897, 'MSE': 0.5119747584412127, 'R2': 0.6360488964386461}
+Fit time: 0.71s
+------------------------------------------------------------
+Trial 286/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.5245794118474143, 'MSE': 0.4512173234181587, 'R2': 0.689124489399447}
+Validation: {'MAE': 0.6287658041190534, 'MSE': 0.6649235091005727, 'R2': 0.5273211404838645}
+Fit time: 0.34s
+------------------------------------------------------------
+Trial 287/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 300, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.13804967868951773, 'MSE': 0.03431321199168203, 'R2': 0.9763592026621426}
+Validation: {'MAE': 0.4838794883798275, 'MSE': 0.4911581027283646, 'R2': 0.6508469791453305}
+Fit time: 1.14s
+------------------------------------------------------------
+Trial 288/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 8, 'learning_rate': 0.1, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.17770783941257035, 'MSE': 0.054484425485012755, 'R2': 0.9624618277859553}
+Validation: {'MAE': 0.5070613552048092, 'MSE': 0.5271136608414819, 'R2': 0.6252869982308885}
+Fit time: 0.77s
+------------------------------------------------------------
+Trial 289/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.8052562455449785, 'MSE': 0.9931738459547225, 'R2': 0.3157323301832612}
+Validation: {'MAE': 0.8201051067851839, 'MSE': 1.0575499784164326, 'R2': 0.24821199606046151}
+Fit time: 0.29s
+------------------------------------------------------------
+Trial 290/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.2401529664461601, 'MSE': 0.09786432323444905, 'R2': 0.9325743497066661}
+Validation: {'MAE': 0.5061318210467247, 'MSE': 0.5195435187809244, 'R2': 0.6306684384515835}
+Fit time: 1.35s
+------------------------------------------------------------
+Trial 291/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 0.1, 'reg_alpha': 0.1, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.4185758157476763, 'MSE': 0.27782195436732593, 'R2': 0.8085888164361418}
+Validation: {'MAE': 0.5762956009865516, 'MSE': 0.5936097251664948, 'R2': 0.5780164724978233}
+Fit time: 0.31s
+------------------------------------------------------------
+Trial 292/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 1.0, 'reg_alpha': 0.01, 'n_estimators': 100, 'min_child_weight': 5, 'max_depth': 6, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.7092794986189831, 'MSE': 0.767976846217766, 'R2': 0.4708864624506074}
+Validation: {'MAE': 0.757036864337467, 'MSE': 0.9076140993560695, 'R2': 0.3547979707550065}
+Fit time: 0.45s
+------------------------------------------------------------
+Trial 293/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 0.1, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 10, 'learning_rate': 0.05, 'colsample_bytree': 1.0}
+Train: {'MAE': 0.22359863327454135, 'MSE': 0.08889880524042758, 'R2': 0.9387513288241255}
+Validation: {'MAE': 0.5283164229424936, 'MSE': 0.538328780290761, 'R2': 0.6173144272538249}
+Fit time: 0.93s
+------------------------------------------------------------
+Trial 294/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 10.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 10, 'learning_rate': 0.2, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.09082709481711831, 'MSE': 0.018530392588564055, 'R2': 0.987233102634537}
+Validation: {'MAE': 0.4932662595751739, 'MSE': 0.5060481710531367, 'R2': 0.6402619713699383}
+Fit time: 0.91s
+------------------------------------------------------------
+Trial 295/300
+Parameters: {'subsample': 1.0, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 0.5}
+Train: {'MAE': 0.4598382173473559, 'MSE': 0.3548175535239144, 'R2': 0.7555411053676162}
+Validation: {'MAE': 0.5883477725716574, 'MSE': 0.6137934815627268, 'R2': 0.5636683033873228}
+Fit time: 0.60s
+------------------------------------------------------------
+Trial 296/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.40171618271226595, 'MSE': 0.2666327062084807, 'R2': 0.8162978804593635}
+Validation: {'MAE': 0.5509107166200965, 'MSE': 0.5694645702169271, 'R2': 0.5951807089072714}
+Fit time: 1.11s
+------------------------------------------------------------
+Trial 297/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.01, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.5582631384160014, 'MSE': 0.5049985366174979, 'R2': 0.6520708098389939}
+Validation: {'MAE': 0.6572873410440628, 'MSE': 0.7117340107354772, 'R2': 0.4940446293914915}
+Fit time: 0.98s
+------------------------------------------------------------
+Trial 298/300
+Parameters: {'subsample': 0.6, 'reg_lambda': 5.0, 'reg_alpha': 1.0, 'n_estimators': 300, 'min_child_weight': 3, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.6023007232904367, 'MSE': 0.5766624162836185, 'R2': 0.6026964972260549}
+Validation: {'MAE': 0.6783320164510181, 'MSE': 0.7448698946886284, 'R2': 0.4704890901126637}
+Fit time: 0.89s
+------------------------------------------------------------
+Trial 299/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0.01, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.9}
+Train: {'MAE': 0.44917557268878955, 'MSE': 0.34087711095818446, 'R2': 0.7651456616993392}
+Validation: {'MAE': 0.5909726289842454, 'MSE': 0.612267758227933, 'R2': 0.5647529050835435}
+Fit time: 0.67s
+------------------------------------------------------------
+Trial 300/300
+Parameters: {'subsample': 0.8, 'reg_lambda': 5.0, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 8, 'learning_rate': 0.05, 'colsample_bytree': 0.7}
+Train: {'MAE': 0.31231485981086177, 'MSE': 0.17168759647006068, 'R2': 0.8817122782164355}
+Validation: {'MAE': 0.5393575312682383, 'MSE': 0.5494726022854541, 'R2': 0.6093925400006166}
+Fit time: 0.75s
+------------------------------------------------------------
+
+============================================================
+Best trial: 151
+Best validation MAE: 0.467125
+Best parameters: {'subsample': 0.6, 'reg_lambda': 0.1, 'reg_alpha': 1.0, 'n_estimators': 700, 'min_child_weight': 3, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 0.5}
