@@ -1,0 +1,21 @@
+{
+    "model": "RandomForestRegressor",
+    "dataset": "esol",
+    "split": "scaffold",
+    "feature_type": "morgan",
+    "train_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\esol\\scaffold\\train.csv",
+    "val_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\esol\\scaffold\\val.csv",
+    "best_trial": 269,
+    "selection_metric": "val_MAE",
+    "best_val_MAE": 1.0934027107037496,
+    "best_params": {
+        "n_estimators": 700,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": 0.3,
+        "max_depth": null,
+        "bootstrap": false
+    },
+    "random_state": 0,
+    "n_jobs": -1
+}
