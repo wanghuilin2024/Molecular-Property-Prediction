@@ -1,0 +1,25 @@
+{
+    "model": "XGBRegressor",
+    "dataset": "esol",
+    "split": "scaffold",
+    "feature_type": "morgan",
+    "train_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\esol\\scaffold\\train.csv",
+    "val_path": "E:\\pycharmprojects\\assignment3\\dataset\\final\\esol\\scaffold\\val.csv",
+    "best_trial": 154,
+    "selection_metric": "val_MAE",
+    "best_val_MAE": 0.9708131629363097,
+    "best_params": {
+        "subsample": 0.6,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0,
+        "n_estimators": 200,
+        "min_child_weight": 1,
+        "max_depth": 10,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.7
+    },
+    "random_state": 0,
+    "n_jobs": -1,
+    "objective": "reg:squarederror",
+    "tree_method": "hist"
+}
